@@ -28,6 +28,14 @@
   .swiper-slide img {
     width: 100%; }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor; }
+
 /*Breakpoints*/
 /*Alturas, márgenes*/
 .wo-height-section-m {
