@@ -1,14 +1,72 @@
 
-{% include head.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+    <!-- Iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="scss/component/css/fontawesome-all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+
+    <script src="js/wo-js.js"></script>
+
+
+
+</head>
 <body>
 
 
 
-<!---Header--->
-{% include header.html %}
+<!---Menú navbar---->
+<header>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Navbar</a>
 
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
 
 
 
@@ -37,19 +95,47 @@
             <div class="row">
                 <div class="col-md-3">
 
-                    {% include modIconoTitleText.html %}
+                    <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+                    <div class="caption wo-center">
+                        <h3>Web design</h3>
+                        <div class="text">
+                            <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3">
 
-                    {% include modIconoTitleText.html %}
+                    <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+                    <div class="caption wo-center">
+                        <h3>Web design</h3>
+                        <div class="text">
+                            <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3">
 
-                    {% include modIconoTitleText.html %}
+                    <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+                    <div class="caption wo-center">
+                        <h3>Web design</h3>
+                        <div class="text">
+                            <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3">
 
-                    {% include modIconoTitleText.html %}
+                    <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+                    <div class="caption wo-center">
+                        <h3>Web design</h3>
+                        <div class="text">
+                            <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -368,3 +454,4 @@
 
 
 
+</body>
