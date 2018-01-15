@@ -1,18 +1,456 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-      <div class="entry">
-        {{ post.excerpt }}
+
+  <!-- Iconos -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="scss/component/css/fontawesome-all.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+
+
+  <script src="js/wo-js.js"></script>
+
+
+
+</head>
+<body>
+
+
+
+<!---Menú navbar---->
+<header>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+<!---Contenido---->
+
+<section class="contenido">
+  <section class="section1">
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" ><img src="img/slide2.jpg"></div>
+        <div class="swiper-slide" ><img src="img/slide1.jpg"></div>
+        <div class="swiper-slide" ><img src="img/slide3.jpg"></div>
+
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+
+  </section>
+  <section class="section2 wo-height-section-m">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+
+          <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+          <div class="caption wo-center">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+
+          <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+          <div class="caption wo-center">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+
+          <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+          <div class="caption wo-center">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+
+          <div class="icon-container wo-center"><i class="material-icons dp48">announcement</i></div>
+
+          <div class="caption wo-center">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section3 wo-height-section-m  wo-center">
+    <div class="container">
+      <div class="wo-title"><h3>SUSCRIBE TO OUR NEWSLETTER</h3></div>
+      <div class="wo-form">
+        <form class="form-inline wo-form-inline">
+
+          <input type="text" class="form-control  mb-2 mr-sm-2 mb-sm-0" placeholder="Email">
+
+          <button type="submit" class="btn btn-primary">Suscribe</button>
+
+        </form>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    </div>
+  </section>
+  <section class="section4 wo-height-section-b">
+
+    <div class="row">
+      <div class="col-md-3 wo-nopadding-col wo-overlay-effect">
+
+        <img class="img-fluid" src="img/overlay1.jpg">
+
+        <div class="caption wo-center" href="#">
+          <div class="wo-caption-text">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-3 wo-nopadding-col wo-overlay-effect">
+
+        <img class="img-fluid" src="img/overlay2.jpg">
+
+        <div class="caption wo-center">
+          <div class="wo-caption-text">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 wo-nopadding-col wo-overlay-effect">
+
+        <img class="img-fluid" src="img/overlay3.jpg">
+
+        <div class="caption wo-center">
+          <div class="wo-caption-text">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 wo-nopadding-col wo-overlay-effect">
+
+        <img class="img-fluid" src="img/overlay4.jpg">
+
+        <div class="caption wo-center">
+          <div class="wo-caption-text">
+            <h3>Web design</h3>
+            <div class="text">
+              <p>We are making web design, code your websites and create a Wordpress themes as well.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="section5 wo-height-section-m">
+    <div class="container">
+      <div class="wo-title wo-center"><h3>MEET OUR TEAM</h3></div>
+      <div class="wo-text wo-center"><p>We are a very young, but very passionate design agency based in London, UK. Let us help you width your next proyect, today.</p>
+        <div class="owl-carousel owl-theme">
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car1.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car2.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car3.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car4.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car1.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car2.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car3.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wo-overlay-effect">
+            <img class="img-fluid" src="img/car4.jpg">
+            <div class="caption wo-center">
+              <div class="wo-caption-text">
+                <h3>Web design</h3>
+                <div class="icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <section class="section6 wo-height-section-m  wo-center">
+    <div class="container">
+      <i class="fab fa-facebook-f"></i>
+      <div class="wo-text wo-center"><p>These guys are just incredible! I was able to get my project done in just 7 days.<br>I mean AMAZING service! Highly recomended.</p></div>
+      <div class="wo-text wo-center"><p>@Annie_Wrong</p></div>
+
+
+
+    </div>
+  </section>
+  <section class="section7 wo-height-section-b">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+
+          <div class="wo-center">
+            <div class="wo-plan">
+              <h3>BASIC</h3>
+              <p>$25/Month</p>
+              <button class="btn btn-primary" type="button" value="Input">Buy this plan</button>
+            </div>
+
+
+            <ul class="list-group">
+              <li class="list-group-item">Desing Talk</li>
+              <li class="list-group-item">Drawings/li>
+              <li class="list-group-item">Wireframes</li>
+              <li class="list-group-item">2 Revisions</li>
+              <li class="list-group-item">-</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+
+          <div class="wo-center">
+            <div class="wo-plan">
+              <h3>BASIC</h3>
+              <p>$25/Month</p>
+              <button class="btn btn-primary" type="button" value="Input">Buy this plan</button>
+            </div>
+
+
+            <ul class="list-group">
+              <li class="list-group-item">Desing Talk</li>
+              <li class="list-group-item">Drawings/li>
+              <li class="list-group-item">Wireframes</li>
+              <li class="list-group-item">2 Revisions</li>
+              <li class="list-group-item">-</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+
+          <div class="wo-center">
+            <div class="wo-plan">
+              <h3>BASIC</h3>
+              <p>$25/Month</p>
+              <button class="btn btn-primary" type="button" value="Input">Buy this plan</button>
+            </div>
+
+
+            <ul class="list-group">
+              <li class="list-group-item">Desing Talk</li>
+              <li class="list-group-item">Drawings/li>
+              <li class="list-group-item">Wireframes</li>
+              <li class="list-group-item">2 Revisions</li>
+              <li class="list-group-item">-</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</section>
+
+
+<!---Footer---->
+
+<footer>
+
+</footer>
+<script>
+    $( document ).ready(function() {
+        var swiper;
+        swiper = new Swiper('.swiper-container', {
+            navigation: {
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                height:700,
+                noSwiping: 'true'
+            },
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:2,
+                    nav:true
+                },
+                600:{
+                    items:4,
+                    nav:false
+                },
+                1000:{
+                    items:4,
+                    nav:true,
+                    loop:false
+                }
+            }
+        })
+
+    });
+
+
+</script>
+
+
+
+</body>
