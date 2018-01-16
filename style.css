@@ -1516,10 +1516,10 @@ pre {
   content: "\e956"; }
 
 /*Alturas, márgenes*/
-.wo-height-section-m {
+.wo-height-med {
   padding: 40px 0; }
 
-.wo-height-section-b {
+.wo-height-big {
   padding: 80px 0; }
 
 .wo-nopadding-col {
