@@ -1,8 +1,12 @@
+//Aquí están los estilos bootstrap originales y los míos sustituidos
+@import "scss/layout/custom";
+
+//Aquí los css de componentes descargados
 @import "scss/component/swiper.min.css";
 @import "scss/component/owl.carousel.min.css";
 @import "scss/component/owl.theme.default.min.css";
-@import "scss/component/css/fontawesome-all.css";
 
-@import "scss/layout/swiper-style.scss";
-@import "scss/layout/icons.scss";
-@import "scss/layout/commons.scss";
+//Éstos son mis estilos
+@import "scss/layout/swiper-style";
+@import "scss/layout/icons";
+@import "scss/layout/commons";

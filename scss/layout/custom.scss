@@ -1,0 +1,19 @@
+//Aquí sustituyo las clases de bootstrap
+
+
+// Required
+@import "../../bootstrap/scss/functions";
+@import "../../bootstrap/scss/variables";
+@import "../../bootstrap/scss/mixins";
+
+
+@import "../../bootstrap/scss/reboot";
+@import "../../bootstrap/scss/type";
+@import "../../bootstrap/scss/images";
+@import "../../bootstrap/scss/code";
+@import "../../bootstrap/scss/grid";
+
+$theme-colors: (
+        "primary": #3ec6ff,
+        "danger": #ff4136
+);
