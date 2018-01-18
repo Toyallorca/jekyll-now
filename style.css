@@ -1851,11 +1851,15 @@ select.form-control-lg:not([size]):not([multiple]) {
   height: 300px; }
 
 .wo-form .wo-form-inline .form-control {
-  width: 68%;
-  width: 100%; }
+  width: 68%; }
+  @media only screen and (max-width: 479px) {
+    .wo-form .wo-form-inline .form-control {
+      width: 100%; } }
 .wo-form .wo-form-inline .btn {
-  width: 28%;
-  width: 100%; }
+  width: 28%; }
+  @media only screen and (max-width: 479px) {
+    .wo-form .wo-form-inline .btn {
+      width: 100%; } }
 
 .wo-overlay-effect {
   position: relative; }
