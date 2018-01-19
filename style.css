@@ -8,7 +8,6 @@
 @import url(scss/component/swiper.min.css);
 @import url(scss/component/owl.carousel.min.css);
 @import url(scss/component/owl.theme.default.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans");
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -2450,8 +2449,7 @@ p, label, li{
 h1, h2, h3, h4, h5{
   font-family: $font-family2;
 }
-
-
+*/
 /*Alturas, márgenes*/
 .wo-height-med {
   padding: 40px 0; }
