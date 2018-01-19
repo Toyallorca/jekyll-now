@@ -107,3 +107,17 @@ $tablets:"only screen and (max-width: 780px)";
     }
   }
 }
+
+
+.wo-section-map-form{
+  position:relative;
+  .wo-form-contact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -8% 0 0 -25%;
+    text-align:left;
+  }
+}
