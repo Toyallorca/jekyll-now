@@ -2519,8 +2519,10 @@ tbody.collapse.show {
     text-align: left; }
 
 /*Iconos*/
-.icon img {
-  height: 35px;
-  width: 35px; }
+.icon {
+  padding-botto: 20px; }
+  .icon img {
+    height: 35px;
+    width: 35px; }
 
 /*# sourceMappingURL=style.css.map */
