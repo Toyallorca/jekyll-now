@@ -2521,10 +2521,11 @@ tbody.collapse.show {
 /*Iconos*/
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor; }
+  .icon img {
+    height: 15px;
+    width: 15px; }
 
 /*# sourceMappingURL=style.css.map */
