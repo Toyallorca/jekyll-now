@@ -2519,10 +2519,12 @@ tbody.collapse.show {
     text-align: left; }
 
 /*Iconos*/
-.icon-brush:before {
-  content: "\e900"; }
-
-.icon-camera:before {
-  content: "\e901"; }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor; }
 
 /*# sourceMappingURL=style.css.map */
