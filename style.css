@@ -2452,8 +2452,11 @@ tbody.collapse.show {
   position: relative; }
   .slider .item .caption {
     position: absolute;
-    top: 0;
-    padding: 20px 60px;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
     text-align: center; }
 
 .wo-section-back {
