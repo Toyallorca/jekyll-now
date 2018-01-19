@@ -23,13 +23,21 @@ $tablets:"only screen and (max-width: 780px)";
   text-align: center;
 }
 
-
 .icon-container i{
   font-size: 3rem;
-
 }
 
 
+.slider{
+  .item{
+    position: relative;
+    .caption {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+    }
+  }
+}
 
 
 
