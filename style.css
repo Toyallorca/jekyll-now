@@ -2519,13 +2519,8 @@ tbody.collapse.show {
     text-align: left; }
 
 /*Iconos*/
-.icon {
-  display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor; }
-  .icon img {
-    height: 15px;
-    width: 15px; }
+.icon img {
+  height: 35px;
+  width: 35px; }
 
 /*# sourceMappingURL=style.css.map */
