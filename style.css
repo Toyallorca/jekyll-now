@@ -2451,9 +2451,10 @@ tbody.collapse.show {
 .slider .item {
   position: relative; }
   .slider .item .caption {
-    opacity: 0;
     position: absolute;
-    top: 0; }
+    top: 0;
+    padding: 20px 60px;
+    text-align: center; }
 
 .wo-section-back {
   background: url("img/slide3.jpg") fixed center center;
