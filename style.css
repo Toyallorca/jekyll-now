@@ -2518,4 +2518,11 @@ tbody.collapse.show {
     margin: -8% 0 0 -25%;
     text-align: left; }
 
+/*Iconos*/
+.icon-brush:before {
+  content: "\e900"; }
+
+.icon-camera:before {
+  content: "\e901"; }
+
 /*# sourceMappingURL=style.css.map */

@@ -121,3 +121,14 @@ $tablets:"only screen and (max-width: 780px)";
     text-align:left;
   }
 }
+
+
+
+/*Iconos*/
+
+.icon-brush:before {
+  content: "\e900";
+}
+.icon-camera:before {
+  content: "\e901";
+}
