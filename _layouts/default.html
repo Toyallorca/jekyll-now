@@ -68,12 +68,12 @@
 
     </section>
 
-    <section class="wo-section-back2 wo-height-med">
+    <section class="wo-height-med">
         <div class="container">
             <div class="wo-title wo-center"><h3>MEET OUR TEAM</h3></div>
             <div class="wo-text wo-center"><p>We are a very young, but very passionate design agency based in London, UK. Let us help you width your next proyect, today.</p>
             </div>
-            <div class="owl-carousel owl-theme">
+            <div id="#owl-carousel" class="owl-carousel owl-theme">
                 <div class="wo-overlay-effect">
                     <img class="img-fluid" src="img/car1.jpg">
                     <div class="caption wo-center">
@@ -184,7 +184,7 @@
         </div>
     </section>
 
-    <section class="wo-height-med wo-center">
+    <section class="wo-section-back2 wo-height-med wo-center">
         <div class="container">
             <i class="fab fa-facebook-f"></i>
             <div class="wo-text wo-center"><p>These guys are just incredible! I was able to get my project done in just 7 days.<br>I mean AMAZING service! Highly recomended.</p></div>
@@ -272,17 +272,14 @@
 
 
 <script>
-    var swiper;
-    swiper = new Swiper('.swiper-container', {
-        navigation: {
-            pagination: '.swiper-pagination',
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            height:900,
-            noSwiping: 'true'
-        },
-    });
-    $('.owl-carousel').owlCarousel({
+    $(document).ready(function() {
+        $('#owl-slider').owlCarousel({
+            items: 1,
+            margin: 10,
+            autoHeight: true
+        });
+    })
+    $('#owl-carousel').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
