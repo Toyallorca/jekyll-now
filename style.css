@@ -2434,22 +2434,15 @@ tbody.collapse.show {
 .icon-display:before {
   content: "\e956"; }
 
-/*
-$font-family1: "'Lato', sans-serif;";
-$font-family2: "'Open Sans', sans-serif";
+body {
+  font-family: "'Open Sans', sans-serif"; }
 
+p, label, li {
+  font-family: "'Open Sans', sans-serif"; }
 
-body{
-   font-family: $font-family1;
-}
+h1, h2, h3, h4, h5 {
+  font-family: "'Lato', sans-serif;"; }
 
-p, label, li{
-  font-family: $font-family1;
-}
-h1, h2, h3, h4, h5{
-  font-family: $font-family2;
-}
-*/
 /*Alturas, márgenes*/
 .wo-height-med {
   padding: 40px 0; }
@@ -2538,7 +2531,7 @@ h1, h2, h3, h4, h5{
 
 /*Iconos*/
 .icon {
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
   .icon img {
     height: 35px;
     width: 35px; }
