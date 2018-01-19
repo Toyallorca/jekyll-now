@@ -5,6 +5,15 @@ $smartphones:"only screen and (max-width: 479px)";
 $tablets:"only screen and (max-width: 780px)";
 
 
+$font-family1: "'Lato', sans-serif;";
+$font-family2: "'Open Sans', sans-serif";
+
+
+body{
+   font-family: $font-family1;
+}
+
+
 /*Alturas, márgenes*/
 
 .wo-height-med{
