@@ -8,15 +8,31 @@ $font-family2: "'Lato', sans-serif;";
 $font-family1: "'Open Sans', sans-serif";
 
 
-body{
-   font-family: $font-family1;
-}
+
 
 p, label, li, a{
   font-family: $font-family1;
 }
 h1, h2, h3, h4, h5{
   font-family: $font-family2;
+
+}
+
+p{
+  font-size: 2.5rem;
+}
+
+h1{
+  font-size: 1rem;
+}
+
+h2{
+  font-size: 1.5rem;
+
+}
+h3{
+  font-size: 2rem;
+
 }
 
 
