@@ -2435,6 +2435,12 @@ tbody.collapse.show {
 body {
   font-family: "'Lato', sans-serif;"; }
 
+p, label, li {
+  font-family: "'Lato', sans-serif;"; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "'Open Sans', sans-serif"; }
+
 /*Alturas, márgenes*/
 .wo-height-med {
   padding: 40px 0; }
