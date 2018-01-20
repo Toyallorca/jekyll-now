@@ -254,6 +254,9 @@ p{
   }
   .wo-plan-blue{
     background: $main-color;
+    h2, p{
+      color: $white-color;
+    }
     .btn-primary{
       background: $white-color;
     }
