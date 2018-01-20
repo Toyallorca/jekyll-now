@@ -101,6 +101,48 @@ p{
 
 
 
+/*Iconos*/
+
+
+
+.icon-background-rounded {
+  background: $main-color;
+  padding: 2rem;
+  border-radius: 50%;
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  margin: 0 auto 1rem;
+  span:before{
+    font-size: 2rem;
+    color: $white-color;
+    line-height: 0.6;
+    margin-left: -$rem*0.4;
+  }
+
+}
+
+.icon-social {
+  background: $main-color;
+  padding: $rem*0.3;
+  text-align: center;
+  span:before{
+    color: $white-color;
+
+  }
+
+}
+
+.icon-search {
+  text-align: center;
+  span:before{
+    color: $dark-color;
+
+  }
+}
+
+
 .slider{
   .item{
     position: relative;
@@ -217,44 +259,3 @@ p{
 }
 
 
-
-/*Iconos*/
-
-
-
-.icon-background-rounded {
-  background: $main-color;
-  padding: 2rem;
-  border-radius: 50%;
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  text-align: center;
-  margin: 0 auto 1rem;
-  span:before{
-    font-size: 2rem;
-    color: $white-color;
-    line-height: 0.6;
-    margin-left: -$rem*0.4;
-  }
-
-}
-
-.icon-social {
-  background: $main-color;
-  padding: $rem*0.3;
-  text-align: center;
-  span:before{
-    color: $white-color;
-
-  }
-
-}
-
-.icon-search {
-  text-align: center;
-  span:before{
-    color: $dark-color;
-
-  }
-}

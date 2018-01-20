@@ -2449,6 +2449,34 @@ p {
   background-color: #3ec6ff;
   border: 0; }
 
+/*Iconos*/
+.icon-background-rounded {
+  background: #3ec6ff;
+  padding: 2rem;
+  border-radius: 50%;
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  margin: 0 auto 1rem; }
+  .icon-background-rounded span:before {
+    font-size: 2rem;
+    color: #FFFFFF;
+    line-height: 0.6;
+    margin-left: -0.4rem; }
+
+.icon-social {
+  background: #3ec6ff;
+  padding: 0.3rem;
+  text-align: center; }
+  .icon-social span:before {
+    color: #FFFFFF; }
+
+.icon-search {
+  text-align: center; }
+  .icon-search span:before {
+    color: #212529; }
+
 .slider .item {
   position: relative; }
   .slider .item .caption {
@@ -2534,33 +2562,5 @@ p {
     width: 50%;
     margin: -8% 0 0 -25%;
     text-align: left; }
-
-/*Iconos*/
-.icon-background-rounded {
-  background: #3ec6ff;
-  padding: 2rem;
-  border-radius: 50%;
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  text-align: center;
-  margin: 0 auto 1rem; }
-  .icon-background-rounded span:before {
-    font-size: 2rem;
-    color: #FFFFFF;
-    line-height: 0.6;
-    margin-left: -0.4rem; }
-
-.icon-social {
-  background: #3ec6ff;
-  padding: 0.3rem;
-  text-align: center; }
-  .icon-social span:before {
-    color: #FFFFFF; }
-
-.icon-search {
-  text-align: center; }
-  .icon-search span:before {
-    color: #212529; }
 
 /*# sourceMappingURL=style.css.map */
