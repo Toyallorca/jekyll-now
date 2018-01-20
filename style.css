@@ -2507,10 +2507,8 @@ p {
   height: 300px; }
   .wo-section-back2 p {
     color: #FFFFFF; }
-  .wo-section-back2 .icon-background-rounded {
-    background: #FFFFFF; }
-    .wo-section-back2 .icon-background-rounded span:before {
-      color: #3ec6ff; }
+  .wo-section-back2 .icon span:before {
+    color: #FFFFFF; }
 
 .wo-form .wo-form-inline .form-control {
   width: 68%; }

@@ -184,10 +184,9 @@ p{
   p{
     color: $white-color;
   }
-  .icon-background-rounded{
-    background: $white-color;
+  .icon{
     span:before {
-      color: $main-color;
+      color: $white-color;
     }
   }
 
