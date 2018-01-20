@@ -160,6 +160,10 @@
 
 
 <script>
+
+    $('.wo-btn-search').hover(function() {
+        $('.wo-btn-search').removeClass('input-search-invisible');
+    });
     $(document).ready(function() {
         $('#owl-slider').owlCarousel({
             items: 1,
@@ -184,14 +188,6 @@
                 }
             }
         })
-
-        $('.wo-btn-search').click(function() {
-            $('.wo-btn-search').removeClass('input-search-invisible');
-        });
-
-
-
-
     })
 
 </script>
