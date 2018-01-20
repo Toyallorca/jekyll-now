@@ -2432,6 +2432,13 @@ p {
 .icon-container i {
   font-size: 3rem; }
 
+/* Esto lo uso para el buscador */
+.visible {
+  visibility: visible; }
+
+.invisible {
+  visibility: hidden; }
+
 /*Menú*/
 .navbar .navbar-brand {
   color: #3ec6ff;
