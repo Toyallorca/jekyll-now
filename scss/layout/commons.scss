@@ -249,6 +249,15 @@ p{
   .btn{
     width:100%;
   }
+  .wo-plan{
+    padding: $rem;
+  }
+  .wo-plan-blue{
+    background: $main-color;
+    .btn-primary{
+      background: $white-color;
+    }
+  }
   .list-group-item{
     border: 0;
   }

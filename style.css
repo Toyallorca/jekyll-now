@@ -2553,6 +2553,14 @@ p {
 
 .wo-prices .btn {
   width: 100%; }
+.wo-prices .wo-plan {
+  padding: 1rem; }
+.wo-prices .wo-plan-blue {
+  background: #3ec6ff; }
+  .wo-prices .wo-plan-blue .btn-primary {
+    background: #FFFFFF; }
+.wo-prices .list-group-item {
+  border: 0; }
 
 .wo-section-map-form {
   position: relative; }
