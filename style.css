@@ -2432,14 +2432,6 @@ p {
 .icon-container i {
   font-size: 3rem; }
 
-/* Esto lo uso para el buscador */
-.input-search-visible {
-  visibility: visible; }
-
-.input-search-invisible {
-  visibility: hidden;
-  width: 0; }
-
 /*Menú*/
 .navbar .navbar-brand {
   color: #3ec6ff;
@@ -2453,6 +2445,12 @@ p {
   color: #212529;
   font-size: 0.9rem;
   padding: 0 1.2rem; }
+.navbar .input-search-visible {
+  visibility: visible;
+  width: 0; }
+.navbar .input-search-invisible {
+  visibility: hidden;
+  width: 0; }
 
 .wo-btn {
   border: 0;

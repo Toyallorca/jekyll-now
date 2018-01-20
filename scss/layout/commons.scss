@@ -68,15 +68,6 @@ p{
   font-size: 3rem;
 }
 
-/* Esto lo uso para el buscador */
-  .input-search-visible {
-    visibility: visible;
-  }
-  .input-search-invisible{
-    visibility: hidden;
-    width:0;
-  }
-
 
 /*Menú*/
 
@@ -100,6 +91,15 @@ p{
     }
 
   }
+  .input-search-visible {
+    visibility: visible;
+    width:0;
+  }
+  .input-search-invisible{
+    visibility: hidden;
+    width:0;
+  }
+
 }
 
 
