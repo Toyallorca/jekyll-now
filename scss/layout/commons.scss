@@ -294,15 +294,18 @@ p{
     margin: -8% 0 0 -20%;
     text-align: left;
     padding: 3rem 7rem;
+
     @media #{$smartphones} {
       position:static;
       width:100%;
       margin: 0 auto;
+      padding:1rem;
   }
     @media #{$tablets}{
       position:static;
       width:100%;
       margin: 0 auto;
+      padding:2rem;
     }
     .form-control{
       margin: $rem 0;
