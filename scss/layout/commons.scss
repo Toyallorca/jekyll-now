@@ -282,6 +282,9 @@ p{
 
 .wo-section-map-form{
   position:relative;
+  address{
+    color: $white-color;
+  }
   .wo-form-contact{
     background: lighten($dark-color,40%);
     position: absolute;
