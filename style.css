@@ -2445,8 +2445,9 @@ p {
   color: #212529;
   font-size: 0.9rem; }
 
-.btn-primary {
-  background-color: #3ec6ff; }
+.wo-btn {
+  background-color: #3ec6ff;
+  border: 0; }
 
 .slider .item {
   position: relative; }
@@ -2479,8 +2480,9 @@ p {
   .wo-section-back2 p {
     color: #FFFFFF; }
   .wo-section-back2 .icon-background-rounded {
-    background: #FFFFFF;
-    color: #3ec6ff; }
+    background: #FFFFFF; }
+    .wo-section-back2 .icon-background-rounded span:before {
+      color: #3ec6ff; }
 
 .wo-form .wo-form-inline .form-control {
   width: 68%; }

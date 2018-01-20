@@ -94,8 +94,9 @@ p{
 }
 
 
-.btn-primary{
+.wo-btn{
   background-color: $main-color;
+  border:0;
 }
 
 
@@ -143,7 +144,9 @@ p{
   }
   .icon-background-rounded{
     background: $white-color;
-    color: $main-color;
+    span:before {
+      color: $main-color;
+    }
   }
 
 }
