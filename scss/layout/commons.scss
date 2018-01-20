@@ -80,6 +80,9 @@ p{
       width: 50%;
       margin: -8% 0 0 -25%;
       text-align:center;
+      h2,h3{
+        color: $white-color;
+      }
 
     }
   }
@@ -92,12 +95,16 @@ p{
   height:300px;
   .wo-title{
     text-align: left;
+    color: $white-color;
   }
 
 }
 .wo-section-back2{
   background: url("img/slide2.jpg") fixed center center;
   height:300px;
+  .wo-title{
+    color: $white-color;
+  }
 
 }
 
@@ -145,6 +152,9 @@ p{
       width: 100%;
       position: absolute;
       padding: 0 20px;
+      h3, p{
+        color: $white-color;
+      }
     }
   }
 }

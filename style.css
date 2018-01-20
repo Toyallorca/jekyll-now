@@ -2442,16 +2442,21 @@ p {
     width: 50%;
     margin: -8% 0 0 -25%;
     text-align: center; }
+    .slider .item .caption h2, .slider .item .caption h3 {
+      color: #FFFFFF; }
 
 .wo-section-back {
   background: url("img/slide3.jpg") fixed center center;
   height: 300px; }
   .wo-section-back .wo-title {
-    text-align: left; }
+    text-align: left;
+    color: #FFFFFF; }
 
 .wo-section-back2 {
   background: url("img/slide2.jpg") fixed center center;
   height: 300px; }
+  .wo-section-back2 .wo-title {
+    color: #FFFFFF; }
 
 .wo-form .wo-form-inline .form-control {
   width: 68%; }
@@ -2490,6 +2495,8 @@ p {
       width: 100%;
       position: absolute;
       padding: 0 20px; }
+      .wo-overlay-effect .caption .wo-caption-text h3, .wo-overlay-effect .caption .wo-caption-text p {
+        color: #FFFFFF; }
 
 .wo-section-map-form {
   position: relative; }
