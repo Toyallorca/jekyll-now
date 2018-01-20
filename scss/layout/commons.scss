@@ -159,11 +159,14 @@ p{
 
 .icon {
    margin-bottom:20px;
-  img{
-    height: 35px;
-    width: 35px;
-  }
+
 }
+.icon-brush:before {
+  content: "\e900";
+}
+
+
+
 
 .social {
   img{

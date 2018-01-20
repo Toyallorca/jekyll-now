@@ -2501,9 +2501,9 @@ p {
 /*Iconos*/
 .icon {
   margin-bottom: 20px; }
-  .icon img {
-    height: 35px;
-    width: 35px; }
+
+.icon-brush:before {
+  content: "\e900"; }
 
 .social img {
   height: 10px;
