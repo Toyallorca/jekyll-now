@@ -92,19 +92,20 @@ p{
 
   }
   .wo-input-search{
+    width: auto;
     padding: 1px;
     margin-right: 5px;
     border-radius: 1px;
-    transition: width .25s linear;
-    -webkit-transition: width .25s linear;
-    -moz-transition: width .25s linear;
+    transition: width .50s linear;
+    -webkit-transition: width .50s linear;
+    -moz-transition: width .50s linear;
   }
   .input-search-invisible{
     visibility: hidden;
     width:0;
-    transition: width .25s linear;
-    -webkit-transition: width .25s linear;
-    -moz-transition: width .25s linear;
+    transition: width .50s linear;
+    -webkit-transition: width .50s linear;
+    -moz-transition: width .50s linear;
   }
 
 }
