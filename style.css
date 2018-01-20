@@ -2465,7 +2465,7 @@ p {
   .wo-section-back h3 {
     text-align: left;
     color: #FFFFFF;
-    font-weight: lighter; }
+    font-weight: 300; }
   .wo-section-back .form-control {
     background-color: transparent;
     margin-right: 0.5rem; }
