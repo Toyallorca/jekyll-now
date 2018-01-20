@@ -167,7 +167,9 @@ p{
 
 /*Iconos*/
 
-.icon {
+
+
+.icon-background-rounded {
   background: $main-color;
   padding: 2rem;
   border-radius: 50%;
@@ -179,8 +181,8 @@ p{
   span:before{
     font-size: 2rem;
     color: $white-color;
-    line-height: 0.7;
-    margin-left: -$rem*0.3;
+    line-height: 0.6;
+    margin-left: -$rem*0.4;
   }
 
 }
@@ -192,10 +194,3 @@ p{
 
 
 
-
-.social {
-  img{
-    height: 10px;
-    width: 10px;
-  }
-}
