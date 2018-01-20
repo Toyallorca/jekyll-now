@@ -26,14 +26,15 @@ h1, h2, h3, h4, h5{
 
 }
 
+p a{
+  color: $main-color;
+}
 
 h1{
   font-size: $rem*3;
 }
-
 h2{
   font-size: $rem*2.4;
-
 }
 h3{
   font-size: $rem*1.2;

@@ -2404,6 +2404,9 @@ p, label, li, a {
 h1, h2, h3, h4, h5 {
   font-family: "Lato", sans-serif; }
 
+p a {
+  color: #3ec6ff; }
+
 h1 {
   font-size: 3rem; }
 
