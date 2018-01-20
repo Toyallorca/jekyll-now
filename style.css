@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*Aquí están los estilos bootstrap originales y los míos sustituidos*/
-/*Aquí sustituyo las clases de bootstrap*/
 /* Required*/
 /*Añado los que son necesarios*/
 @import url(scss/component/owl.carousel.min.css);
