@@ -72,13 +72,16 @@ p{
 
 /*Menú*/
 
-.navbar-brand{
-   color: $main-color;
-  span{
-    font-weight: strong;
-    font-family: $font-family2;
+.navbar{
+  .navbar-brand{
+    color: $main-color;
+    span{
+      font-weight: bold;
+      font-family: $font-family2;
+    }
   }
 }
+
 
 
 

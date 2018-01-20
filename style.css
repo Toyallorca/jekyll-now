@@ -2433,10 +2433,10 @@ p {
   font-size: 3rem; }
 
 /*Menú*/
-.navbar-brand {
+.navbar .navbar-brand {
   color: #3ec6ff; }
-  .navbar-brand span {
-    font-weight: strong;
+  .navbar .navbar-brand span {
+    font-weight: bold;
     font-family: "Lato", sans-serif; }
 
 .slider .item {
