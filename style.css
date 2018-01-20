@@ -2551,6 +2551,9 @@ p {
       .wo-overlay-effect .caption .wo-caption-text h3, .wo-overlay-effect .caption .wo-caption-text p {
         color: #FFFFFF; }
 
+.wo-prices .btn {
+  width: 100%; }
+
 .wo-section-map-form {
   position: relative; }
   .wo-section-map-form .wo-form-contact {
