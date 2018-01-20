@@ -11,6 +11,7 @@ $font-family1: 'Open Sans', sans-serif;
 
 /*Colors*/
 $main-color: #3ec6ff;
+$white-color: #FFFFFF;
 
 
 
@@ -174,6 +175,7 @@ p{
   margin: 0 auto 2rem;
   span:before{
     font-size: 2rem;
+    color: $white-color;
   }
 
 }

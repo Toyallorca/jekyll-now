@@ -2512,7 +2512,8 @@ p {
   text-align: center;
   margin: 0 auto 2rem; }
   .icon span:before {
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: #FFFFFF; }
 
 .icon-brush:before {
   content: "\e900"; }
