@@ -2592,6 +2592,10 @@ p {
       .wo-section-map-form .wo-form-contact {
         position: static;
         width: 100%; } }
+    @media only screen and (max-width: 780px) {
+      .wo-section-map-form .wo-form-contact {
+        position: static;
+        width: 100%; } }
     .wo-section-map-form .wo-form-contact .form-control {
       margin: 1rem 0; }
     .wo-section-map-form .wo-form-contact .wo-btn {

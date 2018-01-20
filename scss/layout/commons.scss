@@ -291,13 +291,17 @@ p{
     top: 50%;
     left: 50%;
     width: 40%;
+    margin: -8% 0 0 -20%;
+    text-align: left;
+    padding: 3rem 7rem;
     @media #{$smartphones} {
       position:static;
       width:100%;
   }
-    margin: -8% 0 0 -20%;
-    text-align: left;
-    padding: 3rem 7rem;
+    @media #{$tablets}{
+      position:static;
+      width:100%;
+    }
     .form-control{
       margin: $rem 0;
     }
