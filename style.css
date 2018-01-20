@@ -2445,12 +2445,19 @@ p {
   color: #212529;
   font-size: 0.9rem;
   padding: 0 1.2rem; }
-.navbar .input-search-visible {
-  visibility: visible;
-  width: 0; }
+.navbar .wo-input-search {
+  padding: 1px;
+  margin-right: 5px;
+  border-radius: 1px;
+  transition: width .25s linear;
+  -webkit-transition: width .25s linear;
+  -moz-transition: width .25s linear; }
 .navbar .input-search-invisible {
   visibility: hidden;
-  width: 0; }
+  width: 0;
+  transition: width .25s linear;
+  -webkit-transition: width .25s linear;
+  -moz-transition: width .25s linear; }
 
 .wo-btn {
   border: 0;

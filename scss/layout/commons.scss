@@ -91,13 +91,20 @@ p{
     }
 
   }
-  .input-search-visible {
-    visibility: visible;
-    width:0;
+  .wo-input-search{
+    padding: 1px;
+    margin-right: 5px;
+    border-radius: 1px;
+    transition: width .25s linear;
+    -webkit-transition: width .25s linear;
+    -moz-transition: width .25s linear;
   }
   .input-search-invisible{
     visibility: hidden;
     width:0;
+    transition: width .25s linear;
+    -webkit-transition: width .25s linear;
+    -moz-transition: width .25s linear;
   }
 
 }
