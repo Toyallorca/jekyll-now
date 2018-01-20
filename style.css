@@ -2508,7 +2508,8 @@ p {
   .wo-section-back2 p {
     color: #FFFFFF; }
   .wo-section-back2 .icon span:before {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 5rem; }
 
 .wo-form .wo-form-inline .form-control {
   width: 68%; }
