@@ -167,6 +167,11 @@ p{
       width: 50%;
       margin: -8% 0 0 -25%;
       text-align:center;
+      @media #{$smartphones}{
+        left: 30%;
+        height: 30%;
+        width: 90%;
+      }
       h1,h4{
         color: $white-color;
         letter-spacing: 0.4rem;
@@ -174,11 +179,13 @@ p{
       h1{
         @media #{$smartphones}{
           font-size: $rem*2.2;
+          letter-spacing: 0.1rem;
         }
       }
       h4{
         @media #{$smartphones}{
           font-size: $rem*0.9;
+          letter-spacing: 0.1rem;
         }
       }
     }
