@@ -2433,11 +2433,12 @@ p {
   font-size: 3rem; }
 
 /* Esto lo uso para el buscador */
-.visible {
+.input-search-visible {
   visibility: visible; }
 
-.invisible {
-  visibility: hidden; }
+.input-search-invisible {
+  visibility: hidden;
+  width: 0; }
 
 /*Menú*/
 .navbar .navbar-brand {
@@ -2514,7 +2515,7 @@ p {
     @media only screen and (max-width: 479px) {
       .slider .item .caption h4 {
         font-size: 0.9rem;
-        letter-spacing: 0.4rem; } }
+        letter-spacing: 0.1rem; } }
 
 .wo-section-back {
   background: url("img/slide3.jpg") fixed center center;

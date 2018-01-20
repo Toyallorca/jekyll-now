@@ -69,11 +69,12 @@ p{
 }
 
 /* Esto lo uso para el buscador */
-  .visible {
+  .input-search-visible {
     visibility: visible;
   }
-  .invisible {
+  .input-search-invisible {
     visibility: hidden;
+    width:0;
   }
 
 
