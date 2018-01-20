@@ -232,3 +232,11 @@ p{
   }
 
 }
+
+.icon-search {
+  text-align: center;
+  span:before{
+    color: $dark-color;
+
+  }
+}
