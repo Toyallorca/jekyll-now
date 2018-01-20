@@ -2434,9 +2434,10 @@ p {
 
 /*Menú*/
 .navbar .navbar-brand {
-  color: #3ec6ff; }
+  color: #3ec6ff;
+  font-weight: 300; }
   .navbar .navbar-brand span {
-    font-weight: extra-bold;
+    font-weight: 900;
     font-family: "Lato", sans-serif; }
 
 .slider .item {

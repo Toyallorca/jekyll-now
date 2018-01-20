@@ -75,8 +75,9 @@ p{
 .navbar{
   .navbar-brand{
     color: $main-color;
+    font-weight: 300;
     span{
-      font-weight: extra-bold;
+      font-weight: 900;
       font-family: $font-family2;
     }
   }
