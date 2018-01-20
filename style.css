@@ -1,18 +1,15 @@
 /*
 Error: Undefined variable: "$font-family1".
         on line 12 of scss/layout/commons.scss
-        from line 12 of style.scss
+        from line 9 of style.scss
 
-7: /*Aquí los css de componentes descargados*\/
-8: @import "scss/component/owl.carousel.min.css";
-9: @import "scss/component/owl.theme.default.min.css";
-10: 
-11: /*Éstos son mis estilos*\/
-12: @import "scss/layout/commons.scss";
+7: 
+8: /*Éstos son mis estilos*\/
+9: @import "scss/layout/commons.scss";
 
 Backtrace:
 scss/layout/commons.scss:12
-style.scss:12
+style.scss:9
 /Users/Toya/.rvm/gems/ruby-2.4.2/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/Toya/.rvm/gems/ruby-2.4.2/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/Toya/.rvm/gems/ruby-2.4.2/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -77,4 +74,4 @@ style.scss:12
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-family1\".\A         on line 12 of scss/layout/commons.scss\A         from line 12 of style.scss\A \A 7: /*Aquí los css de componentes descargados*/\A 8: @import \"scss/component/owl.carousel.min.css\";\A 9: @import \"scss/component/owl.theme.default.min.css\";\A 10: \A 11: /*Éstos son mis estilos*/\A 12: @import \"scss/layout/commons.scss\";"; }
+  content: "Error: Undefined variable: \"$font-family1\".\A         on line 12 of scss/layout/commons.scss\A         from line 9 of style.scss\A \A 7: \A 8: /*Éstos son mis estilos*/\A 9: @import \"scss/layout/commons.scss\";"; }
