@@ -2464,7 +2464,11 @@ p {
   height: 300px; }
   .wo-section-back h3 {
     text-align: left;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-weight: lighter; }
+  .wo-section-back .form-control {
+    background-color: transparent;
+    margin-right: 0.5rem; }
 
 .wo-section-back2 {
   background: url("img/slide2.jpg") fixed center center;

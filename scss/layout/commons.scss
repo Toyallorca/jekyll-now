@@ -124,8 +124,12 @@ p{
   h3{
     text-align: left;
     color: $white-color;
+    font-weight: lighter;
   }
-
+  .form-control{
+    background-color: transparent;
+    margin-right: $rem*0.5;
+  }
 }
 .wo-section-back2{
   background: url("img/slide2.jpg") fixed center center;
