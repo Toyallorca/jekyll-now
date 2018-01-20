@@ -2446,8 +2446,11 @@ p {
   font-size: 0.9rem; }
 
 .wo-btn {
-  background-color: #3ec6ff;
-  border: 0; }
+  background: #3ec6ff;
+  color: #FFFFFF; }
+  .wo-btn:hover {
+    background: #0bb7ff;
+    color: #0a0c0d; }
 
 /*Iconos*/
 .icon-background-rounded {
@@ -2559,8 +2562,12 @@ p {
   background: #3ec6ff; }
   .wo-prices .wo-plan-blue h2, .wo-prices .wo-plan-blue p {
     color: #FFFFFF; }
-  .wo-prices .wo-plan-blue .btn-primary {
-    background: #FFFFFF; }
+  .wo-prices .wo-plan-blue .wo-btn {
+    background: #FFFFFF;
+    color: #3ec6ff; }
+    .wo-prices .wo-plan-blue .wo-btn:hover {
+      background: #e6e6e6;
+      color: #0bb7ff; }
 .wo-prices .list-group-item {
   border: 0; }
 

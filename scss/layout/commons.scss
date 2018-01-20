@@ -95,8 +95,12 @@ p{
 
 
 .wo-btn{
-  background-color: $main-color;
-  border:0;
+  background: $main-color;
+  color: $white-color;
+  &:hover{
+    background: darken($main-color,10%);
+    color: darken($dark-color,10%);
+  }
 }
 
 
@@ -257,8 +261,13 @@ p{
     h2, p{
       color: $white-color;
     }
-    .btn-primary{
+    .wo-btn{
       background: $white-color;
+      color: $main-color;
+      &:hover{
+        background: darken($white-color,10%);
+        color: darken($main-color,10%);
+      }
     }
   }
   .list-group-item{
