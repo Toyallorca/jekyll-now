@@ -2448,14 +2448,14 @@ p {
 .wo-section-back {
   background: url("img/slide3.jpg") fixed center center;
   height: 300px; }
-  .wo-section-back .wo-title {
+  .wo-section-back h3 {
     text-align: left;
     color: #FFFFFF; }
 
 .wo-section-back2 {
   background: url("img/slide2.jpg") fixed center center;
   height: 300px; }
-  .wo-section-back2 .wo-title {
+  .wo-section-back2 p {
     color: #FFFFFF; }
 
 .wo-form .wo-form-inline .form-control {
