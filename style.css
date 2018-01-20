@@ -2578,7 +2578,7 @@ p {
 .wo-section-map-form {
   position: relative; }
   .wo-section-map-form .wo-form-contact {
-    background: #212529;
+    background: #4e5862;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2588,5 +2588,7 @@ p {
     padding: 3rem 7rem; }
     .wo-section-map-form .wo-form-contact .form-control {
       margin: 1rem 0; }
+    .wo-section-map-form .wo-form-contact .wo-btn {
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
