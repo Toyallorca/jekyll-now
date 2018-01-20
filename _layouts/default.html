@@ -32,7 +32,7 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control input-search-invisible mr-sm-2" placeholder="Search">
+                    <input class="wo-input-search form-control input-search-invisible mr-sm-2" placeholder="Search">
                    <a class="wo-btn-search" href=""><i class="icon icon-search"> <span class="icon-magnifying-glass"></span></i></a>
                 </form>
 
@@ -185,7 +185,9 @@
             }
         })
 
-
+        $('.wo-btn-search').click(function() {
+            $(this).removeClass('input-search-invisible');
+        });
 
 
 
