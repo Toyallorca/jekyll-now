@@ -187,10 +187,13 @@ p{
 
 }
 
+.icon-social {
+  background: $main-color;
+  display: block;
+  text-align: center;
+  span:before{
+    color: $white-color;
 
-.icon-brush:before {
-  content: "\e900";
+  }
+
 }
-
-
-

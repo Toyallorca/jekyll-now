@@ -2518,7 +2518,11 @@ p {
     line-height: 0.6;
     margin-left: -0.4rem; }
 
-.icon-brush:before {
-  content: "\e900"; }
+.icon-social {
+  background: #3ec6ff;
+  display: block;
+  text-align: center; }
+  .icon-social span:before {
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */
