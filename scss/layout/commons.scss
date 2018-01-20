@@ -4,6 +4,20 @@ $smartphones:"only screen and (max-width: 479px)";
 $tablets:"only screen and (max-width: 780px)";
 
 
+$font-family2: "'Lato', sans-serif;";
+$font-family1: "'Open Sans', sans-serif";
+
+
+
+
+p, label, li, a{
+  font-family: $font-family1;
+}
+h1, h2, h3, h4, h5{
+  font-family: $font-family2;
+
+}
+
 
 
 h1{
@@ -19,7 +33,7 @@ h3{
 
 }
 p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /*Alturas, márgenes*/

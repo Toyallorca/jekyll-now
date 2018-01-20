@@ -2394,6 +2394,12 @@ tbody.collapse.show {
 
 /*Aquí los css de componentes descargados*/
 /*Éstos son mis estilos*/
+p, label, li, a {
+  font-family: "'Open Sans', sans-serif"; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "'Lato', sans-serif;"; }
+
 h1 {
   font-size: 3rem; }
 
@@ -2404,7 +2410,7 @@ h3 {
   font-size: 2rem; }
 
 p {
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 /*Alturas, márgenes*/
 .wo-height-med {
