@@ -2635,4 +2635,16 @@ p {
     .wo-section-map-form .wo-form-contact .wo-btn {
       width: 100%; }
 
+.owl-carousel .owl-carrusel {
+  posición: relativo; }
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px; }
+.owl-carousel .owl-prev {
+  left: 0; }
+.owl-carousel .owl-next {
+  right: 0; }
+
 /*# sourceMappingURL=style.css.map */
