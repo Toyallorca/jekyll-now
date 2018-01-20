@@ -2439,6 +2439,8 @@ p {
   .navbar .navbar-brand span {
     font-weight: 900;
     font-family: "Lato", sans-serif; }
+.navbar .nav-item .item-link {
+  color: #212529; }
 
 .slider .item {
   position: relative; }
