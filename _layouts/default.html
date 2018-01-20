@@ -132,63 +132,9 @@
     <section class="wo-prices wo-height-big">
         <div class="container">
             <div class="row">
-                <div class="col col-md-4">
-
-                    <div class="wo-center">
-                        <div class="wo-plan">
-                            <h3>BASIC</h3>
-                            <p>$25/Month</p>
-                            <button class="btn btn-primary" type="button" value="Input">Buy this plan</button>
-                        </div>
-
-
-                        <ul class="list-group">
-                            <li class="list-group-item">Desing Talk</li>
-                            <li class="list-group-item">Drawings</li>
-                            <li class="list-group-item">Wireframes</li>
-                            <li class="list-group-item">2 Revisions</li>
-                            <li class="list-group-item">-</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col col-md-4">
-
-                    <div class="wo-center">
-                        <div class="wo-plan">
-                            <h3>BASIC</h3>
-                            <p>$25/Month</p>
-                            <button class="btn btn-primary" type="button" value="Input">Buy this plan</button>
-                        </div>
-
-
-                        <ul class="list-group">
-                            <li class="list-group-item">Desing Talk</li>
-                            <li class="list-group-item">Drawings/li>
-                            <li class="list-group-item">Wireframes</li>
-                            <li class="list-group-item">2 Revisions</li>
-                            <li class="list-group-item">-</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col col-md-4">
-
-                    <div class="wo-center">
-                        <div class="wo-plan">
-                            <h3>BASIC</h3>
-                            <p>$25/Month</p>
-                            <button class="btn btn-primary" type="button" value="Input">Buy this plan</button>
-                        </div>
-
-
-                        <ul class="list-group">
-                            <li class="list-group-item">Desing Talk</li>
-                            <li class="list-group-item">Drawings/li>
-                            <li class="list-group-item">Wireframes</li>
-                            <li class="list-group-item">2 Revisions</li>
-                            <li class="list-group-item">-</li>
-                        </ul>
-                    </div>
-                </div>
+                {% include prices.html title="BASIC" price="25$/ Month" %}
+                {% include prices.html title="STANDARD" price="35$/ Month" class="" %}
+                {% include prices.html title="PROFESSIONAL" price="45$/ Month" %}
             </div>
         </div>
     </section>
