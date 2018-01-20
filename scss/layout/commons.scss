@@ -189,7 +189,7 @@ p{
 
 .icon-social {
   background: $main-color;
-  display: block;
+  padding: $rem*0.3;
   text-align: center;
   span:before{
     color: $white-color;

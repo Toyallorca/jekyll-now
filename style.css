@@ -2520,7 +2520,7 @@ p {
 
 .icon-social {
   background: #3ec6ff;
-  display: block;
+  padding: 0.3rem;
   text-align: center; }
   .icon-social span:before {
     color: #FFFFFF; }
