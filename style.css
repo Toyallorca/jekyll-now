@@ -2394,6 +2394,9 @@ tbody.collapse.show {
 
 /*Aquí los css de componentes descargados*/
 /*Éstos son mis estilos*/
+/*Breakpoints*/
+/*Fonts*/
+/*Colors*/
 p, label, li, a {
   font-family: "Open Sans", sans-serif; }
 
@@ -2501,6 +2504,8 @@ p {
 /*Iconos*/
 .icon {
   margin-bottom: 20px; }
+  .icon span {
+    font-size: 2rem; }
 
 .icon-brush:before {
   content: "\e900"; }

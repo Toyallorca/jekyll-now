@@ -1,11 +1,16 @@
 //Éstas son mis propias variables
 
+/*Breakpoints*/
 $smartphones:"only screen and (max-width: 479px)";
 $tablets:"only screen and (max-width: 780px)";
 
-
+/*Fonts*/
 $font-family2: 'Lato', sans-serif;
 $font-family1: 'Open Sans', sans-serif;
+
+
+/*Colors*/
+$main-color: #3ec6ff;
 
 
 
@@ -18,8 +23,6 @@ h1, h2, h3, h4, h5{
 
 }
 
-
-
 h1{
   font-size: 3rem;
 }
@@ -30,11 +33,14 @@ h2{
 }
 h3{
   font-size: 1.8rem;
-
 }
 p{
   font-size: 1rem;
 }
+
+
+
+
 
 /*Alturas, márgenes*/
 
@@ -159,8 +165,13 @@ p{
 
 .icon {
    margin-bottom:20px;
+  span{
+    font-size: 2rem;
+  }
 
 }
+
+
 .icon-brush:before {
   content: "\e900";
 }
