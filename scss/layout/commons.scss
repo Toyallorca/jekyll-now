@@ -14,7 +14,9 @@ $main-color: #3ec6ff;
 $white-color: #FFFFFF;
 
 
+/*Variable tamaño de fuente*/
 
+$rem: 1rem;
 
 p, label, li, a{
   font-family: $font-family1;
@@ -23,6 +25,7 @@ h1, h2, h3, h4, h5{
   font-family: $font-family2;
 
 }
+
 
 h1{
   font-size: 3rem;
@@ -33,10 +36,10 @@ h2{
 
 }
 h3{
-  font-size: 1.8rem;
+  font-size: $rem*1.2;
 }
 p{
-  font-size: 1rem;
+  font-size: $rem;
 }
 
 
@@ -169,10 +172,10 @@ p{
   padding: 2rem;
   border-radius: 50%;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   text-align: center;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
   span:before{
     font-size: 2rem;
     color: $white-color;

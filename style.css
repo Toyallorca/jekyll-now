@@ -2397,6 +2397,7 @@ tbody.collapse.show {
 /*Breakpoints*/
 /*Fonts*/
 /*Colors*/
+/*Variable tamaño de fuente*/
 p, label, li, a {
   font-family: "Open Sans", sans-serif; }
 
@@ -2410,7 +2411,7 @@ h2 {
   font-size: 2.4rem; }
 
 h3 {
-  font-size: 1.8rem; }
+  font-size: 1.2rem; }
 
 p {
   font-size: 1rem; }
@@ -2507,10 +2508,10 @@ p {
   padding: 2rem;
   border-radius: 50%;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   text-align: center;
-  margin: 0 auto 2rem; }
+  margin: 0 auto 1rem; }
   .icon span:before {
     font-size: 2rem;
     color: #FFFFFF; }
