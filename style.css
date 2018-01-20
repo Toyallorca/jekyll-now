@@ -2515,7 +2515,8 @@ p {
   .icon span:before {
     font-size: 2rem;
     color: #FFFFFF;
-    line-height: 0.7; }
+    line-height: 0.7;
+    margin-left: 0.3rem; }
 
 .icon-brush:before {
   content: "\e900"; }
