@@ -2503,8 +2503,15 @@ p {
 
 /*Iconos*/
 .icon {
-  margin-bottom: 20px; }
-  .icon span {
+  background: #3ec6ff;
+  padding: 2rem;
+  border-radius: 50%;
+  display: block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto 2rem; }
+  .icon span:before {
     font-size: 2rem; }
 
 .icon-brush:before {
