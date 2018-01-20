@@ -2439,7 +2439,7 @@ p {
   .navbar .navbar-brand span {
     font-weight: 900;
     font-family: "Lato", sans-serif; }
-.navbar .nav-item .item-link {
+.navbar .nav-item .nav-link {
   color: #212529; }
 
 .slider .item {
@@ -2452,7 +2452,7 @@ p {
     width: 50%;
     margin: -8% 0 0 -25%;
     text-align: center; }
-    .slider .item .caption h2, .slider .item .caption h3 {
+    .slider .item .caption h1, .slider .item .caption h4 {
       color: #FFFFFF;
       letter-spacing: 0.4rem; }
 
