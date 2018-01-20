@@ -95,11 +95,12 @@ p{
 
 
 .wo-btn{
+  border:0;
   background: $main-color;
   color: $white-color;
   &:hover{
     background: darken($main-color,10%);
-    color: darken($dark-color,10%);
+    color: darken($white-color,10%);
   }
 }
 

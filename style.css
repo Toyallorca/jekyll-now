@@ -2446,11 +2446,12 @@ p {
   font-size: 0.9rem; }
 
 .wo-btn {
+  border: 0;
   background: #3ec6ff;
   color: #FFFFFF; }
   .wo-btn:hover {
     background: #0bb7ff;
-    color: #0a0c0d; }
+    color: #e6e6e6; }
 
 /*Iconos*/
 .icon-background-rounded {
