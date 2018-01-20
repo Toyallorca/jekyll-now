@@ -2432,6 +2432,13 @@ p {
 .icon-container i {
   font-size: 3rem; }
 
+/*Menú*/
+.navbar-brand {
+  color: #3ec6ff; }
+  .navbar-brand span {
+    font-weight: strong;
+    font-family: "Lato", sans-serif; }
+
 .slider .item {
   position: relative; }
   .slider .item .caption {

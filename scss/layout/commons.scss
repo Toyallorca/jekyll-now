@@ -5,8 +5,8 @@ $smartphones:"only screen and (max-width: 479px)";
 $tablets:"only screen and (max-width: 780px)";
 
 /*Fonts*/
-$font-family2: 'Lato', sans-serif;
 $font-family1: 'Open Sans', sans-serif;
+$font-family2: 'Lato', sans-serif;
 
 
 /*Colors*/
@@ -67,6 +67,19 @@ p{
 .icon-container i{
   font-size: 3rem;
 }
+
+
+
+/*Menú*/
+
+.navbar-brand{
+   color: $main-color;
+  span{
+    font-weight: strong;
+    font-family: $font-family2;
+  }
+}
+
 
 
 .slider{
