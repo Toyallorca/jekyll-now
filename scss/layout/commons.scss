@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5{
 
 
 h1{
-  font-size: 3rem;
+  font-size: $rem*3;
 }
 
 h2{
-  font-size: 2.4rem;
+  font-size: $rem*2.4;
 
 }
 h3{
@@ -164,7 +164,16 @@ p{
         color: $white-color;
         letter-spacing: 0.4rem;
       }
-
+      h1{
+        @media #{smartphones}{
+          font-size: $rem*2.2;
+        }
+      }
+      h4{
+        @media #{smartphones}{
+          font-size: $rem*0.9;
+        }
+      }
     }
   }
 }
