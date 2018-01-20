@@ -2436,7 +2436,7 @@ p {
 .navbar .navbar-brand {
   color: #3ec6ff; }
   .navbar .navbar-brand span {
-    font-weight: bold;
+    font-weight: extra-bold;
     font-family: "Lato", sans-serif; }
 
 .slider .item {
