@@ -2495,10 +2495,10 @@ p {
     .slider .item .caption h1, .slider .item .caption h4 {
       color: #FFFFFF;
       letter-spacing: 0.4rem; }
-    @media smartphones {
+    @media only screen and (max-width: 479px) {
       .slider .item .caption h1 {
         font-size: 2.2rem; } }
-    @media smartphones {
+    @media only screen and (max-width: 479px) {
       .slider .item .caption h4 {
         font-size: 0.9rem; } }
 

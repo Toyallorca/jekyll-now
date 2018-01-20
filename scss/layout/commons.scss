@@ -165,12 +165,12 @@ p{
         letter-spacing: 0.4rem;
       }
       h1{
-        @media #{smartphones}{
+        @media #{$smartphones}{
           font-size: $rem*2.2;
         }
       }
       h4{
-        @media #{smartphones}{
+        @media #{$smartphones}{
           font-size: $rem*0.9;
         }
       }
