@@ -2582,7 +2582,7 @@ p {
   .wo-section-map-form .wo-form-contact {
     background: #7e8b98;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     width: 40%;
     margin: -8% 0 0 -20%;
@@ -2591,11 +2591,13 @@ p {
     @media only screen and (max-width: 479px) {
       .wo-section-map-form .wo-form-contact {
         position: static;
-        width: 100%; } }
+        width: 100%;
+        margin: 0 auto; } }
     @media only screen and (max-width: 780px) {
       .wo-section-map-form .wo-form-contact {
         position: static;
-        width: 100%; } }
+        width: 100%;
+        margin: 0 auto; } }
     .wo-section-map-form .wo-form-contact .form-control {
       margin: 1rem 0; }
     .wo-section-map-form .wo-form-contact .wo-btn {

@@ -297,10 +297,12 @@ p{
     @media #{$smartphones} {
       position:static;
       width:100%;
+      margin: 0 auto;
   }
     @media #{$tablets}{
       position:static;
       width:100%;
+      margin: 0 auto;
     }
     .form-control{
       margin: $rem 0;
