@@ -105,6 +105,12 @@ p{
   .input-search-invisible{
     visibility: hidden;
     width:0;
+    @media #{$smartphones}{
+      width:auto;
+    }
+    @media #{$tablets}{
+      width:auto;
+    }
   }
 }
 

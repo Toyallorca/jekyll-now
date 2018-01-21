@@ -2460,6 +2460,12 @@ p {
 .navbar .input-search-invisible {
   visibility: hidden;
   width: 0; }
+  @media only screen and (max-width: 479px) {
+    .navbar .input-search-invisible {
+      width: auto; } }
+  @media only screen and (max-width: 780px) {
+    .navbar .input-search-invisible {
+      width: auto; } }
 
 .wo-btn {
   border: 0;
