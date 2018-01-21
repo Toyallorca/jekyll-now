@@ -2442,6 +2442,9 @@ p a {
   padding-left: 0;
   padding-right: 0; }
 
+.wo-nomargin-col {
+  margin: 0 -15px; }
+
 .wo-center {
   text-align: center; }
 
