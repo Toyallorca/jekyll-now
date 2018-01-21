@@ -228,15 +228,15 @@ p{
       position: absolute;
       top: 45%;
       margin-top: -10px;
+      color: rgba(255, 255, 255, 0.5);
       span{
         font-size: 3.5rem;
         @media #{$smartphones}{
-          font-size: 3rem;
+          font-size: 2.5rem;
 
         }
 
       }
-      opacity: 0.5;
       &:hover{
         background: none;
       }
