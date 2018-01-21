@@ -142,10 +142,10 @@ p{
 }
 
 .icon-social {
-  padding: $rem*0.3;
-  text-align: center;
   span {
     background: $main-color;
+    padding: $rem*0.3;
+    text-align: center;
     &:before {
       color: $white-color;
     }

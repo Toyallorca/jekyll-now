@@ -2486,13 +2486,10 @@ p {
     line-height: 0.6;
     margin-left: -0.4rem; }
 
-.icon-social {
-  padding: 0.3rem;
-  text-align: center; }
-  .icon-social span {
-    background: #3ec6ff; }
-    .icon-social span:before {
-      color: #FFFFFF; }
+.icon-social span {
+  background: #3ec6ff; }
+  .icon-social span:before {
+    color: #FFFFFF; }
 
 .icon-search {
   text-align: center; }
