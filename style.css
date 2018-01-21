@@ -2489,7 +2489,9 @@ p {
 .icon-social span {
   text-align: center; }
   .icon-social span:before {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    background: #3ec6ff;
+    padding: 0.3rem; }
 
 .icon-search {
   text-align: center; }
@@ -2651,5 +2653,8 @@ p {
     left: 0; }
   .owl-carousel .owl-next {
     right: 0; }
+  .owl-carousel .owl-dots.active {
+    background: #FFFFFF;
+    border: 1px solid #3ec6ff; }
 
 /*# sourceMappingURL=style.css.map */
