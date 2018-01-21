@@ -4,6 +4,7 @@
 /*Añado los que son necesarios*/
 @import url(scss/component/owl.carousel.min.css);
 @import url(scss/component/owl.theme.default.min.css);
+@import url(scss/component/iconmoon.css);
 .btn {
   display: inline-block;
   font-weight: 400;
