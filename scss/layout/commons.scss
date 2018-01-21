@@ -219,7 +219,14 @@ p{
   }
   .owl-next, .owl-prev{
     span{
-      font-size: 4rem;
+      font-size: 3.5rem;
+      @media #{$smartphones}{
+        font-size: 3rem;
+
+      }
+      &:hover{
+        background: none;
+      }
     }
   }
 

@@ -2539,7 +2539,12 @@ p {
 .wo-slider .owl-nav [class*=owl-] {
   background: none; }
 .wo-slider .owl-next span, .wo-slider .owl-prev span {
-  font-size: 4rem; }
+  font-size: 3.5rem; }
+  @media only screen and (max-width: 479px) {
+    .wo-slider .owl-next span, .wo-slider .owl-prev span {
+      font-size: 3rem; } }
+  .wo-slider .owl-next span:hover, .wo-slider .owl-prev span:hover {
+    background: none; }
 
 .wo-section-newsletter {
   background: url("img/slide3.jpg") fixed center center;
