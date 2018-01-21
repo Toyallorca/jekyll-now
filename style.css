@@ -2508,20 +2508,20 @@ p {
     width: 50%;
     margin: -8% 0 0 -25%;
     text-align: center; }
-    @media only screen and (max-width: 780px) {
+    @media only screen and (max-width: 479px) {
       .wo-slider .item .caption {
-        left: 30%;
+        left: 35%;
         top: 40%;
         height: 30%;
-        width: 90%; } }
+        width: 80%; } }
     .wo-slider .item .caption h1, .wo-slider .item .caption h4 {
       color: #FFFFFF;
       letter-spacing: 0.4rem; }
-    @media only screen and (max-width: 780px) {
+    @media only screen and (max-width: 479px) {
       .wo-slider .item .caption h1 {
         font-size: 2rem;
         letter-spacing: 0rem; } }
-    @media only screen and (max-width: 780px) {
+    @media only screen and (max-width: 479px) {
       .wo-slider .item .caption h4 {
         font-size: 0.7rem;
         letter-spacing: 0rem; } }
@@ -2550,16 +2550,17 @@ p {
     color: #FFFFFF;
     font-size: 5rem; }
 
+/*Formulario del newsletter*/
 .wo-form .wo-form-inline .form-control {
   width: 68%; }
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 479px) {
     .wo-form .wo-form-inline .form-control {
       width: 100%;
       margin-bottom: 0.8rem;
       margin-right: 0; } }
 .wo-form .wo-form-inline .btn {
   width: 28%; }
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 479px) {
     .wo-form .wo-form-inline .btn {
       width: 100%; } }
 
@@ -2624,13 +2625,13 @@ p {
     margin: -8% 0 0 -20%;
     text-align: left;
     padding: 3rem 7rem; }
-    @media only screen and (max-width: 780px) {
+    @media only screen and (max-width: 479px) {
       .wo-section-map-form .wo-form-contact {
         position: static;
         width: 100%;
         margin: 0 auto;
         padding: 1rem; } }
-    @media only screen and (max-width: 960px) {
+    @media only screen and (max-width: 780px) {
       .wo-section-map-form .wo-form-contact {
         position: static;
         width: 100%;
@@ -2643,7 +2644,8 @@ p {
 
 /*Pongo las flechas del owl-carusel encima de la imagen*/
 .owl-carousel {
-  position: relative; }
+  position: relative;
+  /*Cambio el color de los puntitos del slider*/ }
   .owl-carousel .owl-prev,
   .owl-carousel .owl-next {
     position: absolute;
