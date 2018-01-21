@@ -2443,6 +2443,8 @@ p {
   .navbar .navbar-brand span {
     font-weight: 900;
     font-family: "Lato", sans-serif; }
+  .navbar .navbar-brand:hover {
+    color: #3ec6ff; }
 .navbar .navbar-collapse {
   justify-content: flex-end; }
 .navbar .nav-item .nav-link {
@@ -2543,8 +2545,8 @@ p {
   @media only screen and (max-width: 479px) {
     .wo-slider .owl-next span, .wo-slider .owl-prev span {
       font-size: 3rem; } }
-  .wo-slider .owl-next span:hover, .wo-slider .owl-prev span:hover {
-    background: none; }
+.wo-slider .owl-next:hover, .wo-slider .owl-prev:hover {
+  background: none; }
 
 .wo-section-newsletter {
   background: url("img/slide3.jpg") fixed center center;
