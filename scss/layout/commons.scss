@@ -362,7 +362,7 @@ p{
   .owl-prev,
   .owl-next {
     position: absolute;
-    top: 50%;
+    top: 45%;
     margin-top: -10px;
   }
   .owl-prev {
@@ -375,7 +375,7 @@ p{
     .owl-dot.active{
       span{
         background: $white-color;
-        border: 1px solid $main-color;
+        border: 2px solid $main-color;
       }
     }
   }
