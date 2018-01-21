@@ -24,12 +24,6 @@ h1, h2, h3, h4, h5{
   font-family: $font-family2;
 }
 
-p {
-  a{
-    color: $main-color;
-  }
-}
-
 h1{
   font-size: $rem*3;
 }
@@ -44,7 +38,23 @@ p{
 }
 
 
+p {
+  a{
+    color: $main-color;
+  }
+}
 
+
+.wo-btn{
+  border:0;
+  background: $main-color;
+  color: $white-color;
+  font-weight: 300;
+  &:hover{
+    background: darken($main-color,10%);
+    color: darken($white-color,10%);
+  }
+}
 
 
 /*Alturas, márgenes*/
@@ -139,17 +149,6 @@ p{
   }
 }
 
-
-.wo-btn{
-  border:0;
-  background: $main-color;
-  color: $white-color;
-  font-weight: 300;
-  &:hover{
-    background: darken($main-color,10%);
-    color: darken($white-color,10%);
-  }
-}
 
 
 
