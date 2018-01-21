@@ -2523,12 +2523,12 @@ p {
       letter-spacing: 0.4rem; }
     @media only screen and (max-width: 479px) {
       .slider .item .caption h1 {
-        font-size: 2.2rem;
-        letter-spacing: 0.1rem; } }
+        font-size: 2rem;
+        letter-spacing: 0rem; } }
     @media only screen and (max-width: 479px) {
       .slider .item .caption h4 {
-        font-size: 0.9rem;
-        letter-spacing: 0.1rem; } }
+        font-size: 0.7rem;
+        letter-spacing: 0rem; } }
 
 .wo-section-back {
   background: url("img/slide3.jpg") fixed center center;

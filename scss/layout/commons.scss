@@ -191,14 +191,14 @@ p{
       }
       h1{
         @media #{$smartphones}{
-          font-size: $rem*2.2;
-          letter-spacing: 0.1rem;
+          font-size: $rem*2;
+          letter-spacing: 0rem;
         }
       }
       h4{
         @media #{$smartphones}{
-          font-size: $rem*0.9;
-          letter-spacing: 0.1rem;
+          font-size: $rem*0.7;
+          letter-spacing: 0rem;
         }
       }
     }
