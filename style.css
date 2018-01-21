@@ -2502,7 +2502,7 @@ p {
   .icon-social span:before {
     color: #FFFFFF;
     background: #3ec6ff;
-    padding: 0.3rem; }
+    padding: 0.4rem; }
 .icon-social a:hover span:before {
   background: #0bb7ff; }
 
@@ -2646,13 +2646,15 @@ p {
 
 .wo-prices .wo-prices-item {
   padding: 0 2rem; }
+.wo-prices h3 {
+  font-size: 1rem; }
 .wo-prices .btn {
   width: 100%; }
 .wo-prices .wo-plan {
   padding: 1rem; }
 .wo-prices .wo-plan-blue {
   background: #3ec6ff; }
-  .wo-prices .wo-plan-blue h2, .wo-prices .wo-plan-blue p {
+  .wo-prices .wo-plan-blue h3, .wo-prices .wo-plan-blue p {
     color: #FFFFFF; }
   .wo-prices .wo-plan-blue .wo-btn {
     background: #FFFFFF;

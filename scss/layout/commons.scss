@@ -162,7 +162,7 @@ p{
     &:before {
       color: $white-color;
       background: $main-color;
-      padding: $rem*0.3;
+      padding: $rem*0.4;
     }
   }
   a:hover{
@@ -372,6 +372,9 @@ p{
   .wo-prices-item{
     padding: 0 2rem;
   }
+  h3{
+    font-size: $rem*1.5;
+  }
   .btn{
     width:100%;
   }
@@ -380,7 +383,7 @@ p{
   }
   .wo-plan-blue{
     background: $main-color;
-    h2, p{
+    h3, p{
       color: $white-color;
     }
     .wo-btn{
