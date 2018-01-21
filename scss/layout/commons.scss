@@ -373,8 +373,10 @@ p{
   }
   .owl-dots{
     &.active{
-      background: $white-color;
-      border: 1px solid $main-color;
+      span{
+        background: $white-color;
+        border: 1px solid $main-color;
+      }
     }
   }
 
