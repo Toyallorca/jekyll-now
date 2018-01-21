@@ -6,8 +6,9 @@
 
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Navbar</a>
+            <!--Botón de bootstrap para la versión responsive-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,33 +29,7 @@
                 </form>
             </div>
         </nav>
-        <!--
-        <nav class="navbar navbar-expand-lg navbar-light">
-            {% include logo.html %}
-            <!--Botón para el menú responvise-->   <!--
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Fin para el responsive-->   <!--
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
 
-                    {% include nav-item.html item="Home" %}
-                    {% include nav-item.html item="Portfolio" %}
-                    {% include nav-item.html item="Blog" %}
-                    {% include nav-item.html item="Services" %}
-                    {% include nav-item.html item="Contact" %}
-
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="wo-input-search form-control input-search-invisible mr-sm-2" placeholder="Search">
-                   <a class="wo-btn-search" href=""><i class="icon icon-search"> <span class="icon-magnifying-glass"></span></i></a>
-                </form>
-
-
-            </div>
-        </nav>
-        -->
     </div>
 </header>
 
@@ -189,7 +164,8 @@
             loop:true,
             dots: false,
             margin:10,
-            nav:true
+            nav:true,
+            navText : ["<span class='icon-chevron-thin-left'></span>","<span class='icon-chevron-thin-right'></span>"]
 
         });
         $('#owl-carousel').owlCarousel({

@@ -23,7 +23,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-chevron-thin-left:before {
+    contenido: "\ e90c";
+}
+.icon-chevron-thin-right:before {
+    contenido: "\ e90e";
+}
 .icon-brush:before {
     content: "\e900";
 }
