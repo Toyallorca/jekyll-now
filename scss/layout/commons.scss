@@ -217,7 +217,7 @@ p{
 
 
 
-.wo-section-back{
+.wo-section-newsletter{
   background: url("img/slide3.jpg") fixed center center;
   height:300px;
   h3{
@@ -228,10 +228,32 @@ p{
   .form-control{
     background-color: transparent;
     margin-right: $rem*0.5;
+    &:focus{
+      color: $white-color;
+    }
+  }
+}
+/*Formulario del newsletter*/
+.wo-form {
+  .wo-form-inline {
+    .form-control {
+      width: 68%;
+      @media #{$smartphones} {
+        width: 100%;
+        margin-bottom: $rem*0.8;
+        margin-right:0
+      }
+    }
+    .btn {
+      width:28%;
+      @media #{$smartphones} {
+        width: 100%;
+      }
+    }
   }
 }
 
-.wo-section-back2{
+.wo-section-testimonial{
   background: url("img/slide2.jpg") fixed center center;
   height:450px;
   p{
@@ -244,25 +266,6 @@ p{
     }
   }
 
-}
-/*Formulario del newsletter*/
-.wo-form {
-  .wo-form-inline {
-    .form-control {
-       width: 68%;
-        @media #{$smartphones} {
-        width: 100%;
-          margin-bottom: $rem*0.8;
-          margin-right:0
-     }
-      }
-    .btn {
-       width:28%;
-      @media #{$smartphones} {
-        width: 100%;
-      }
-    }
-  }
 }
 
 .wo-overlay-effect {

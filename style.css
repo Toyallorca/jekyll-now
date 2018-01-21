@@ -2536,25 +2536,18 @@ p {
 .wo-slider .owl-next span, .wo-slider .owl-prev span {
   font-size: 4rem; }
 
-.wo-section-back {
+.wo-section-newsletter {
   background: url("img/slide3.jpg") fixed center center;
   height: 300px; }
-  .wo-section-back h3 {
+  .wo-section-newsletter h3 {
     text-align: left;
     color: #FFFFFF;
     font-weight: 300; }
-  .wo-section-back .form-control {
+  .wo-section-newsletter .form-control {
     background-color: transparent;
     margin-right: 0.5rem; }
-
-.wo-section-back2 {
-  background: url("img/slide2.jpg") fixed center center;
-  height: 450px; }
-  .wo-section-back2 p {
-    color: #FFFFFF; }
-  .wo-section-back2 .icon span:before {
-    color: #FFFFFF;
-    font-size: 5rem; }
+    .wo-section-newsletter .form-control:focus {
+      color: #FFFFFF; }
 
 /*Formulario del newsletter*/
 .wo-form .wo-form-inline .form-control {
@@ -2569,6 +2562,15 @@ p {
   @media only screen and (max-width: 479px) {
     .wo-form .wo-form-inline .btn {
       width: 100%; } }
+
+.wo-section-testimonial {
+  background: url("img/slide2.jpg") fixed center center;
+  height: 450px; }
+  .wo-section-testimonial p {
+    color: #FFFFFF; }
+  .wo-section-testimonial .icon span:before {
+    color: #FFFFFF;
+    font-size: 5rem; }
 
 .wo-overlay-effect {
   position: relative; }
