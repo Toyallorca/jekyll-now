@@ -1,8 +1,8 @@
 //Éstas son mis propias variables
 
 /*Breakpoints*/
-$smartphones:"only screen and (max-width: 479px)";
-$tablets:"only screen and (max-width: 780px)";
+$smartphones:"only screen and (max-width: 780px)";
+$tablets:"only screen and (max-width: 960px)";
 
 /*Fonts*/
 $font-family1: 'Open Sans', sans-serif;
@@ -29,6 +29,7 @@ p {
     color: $main-color;
   }
 }
+
 h1{
   font-size: $rem*3;
 }
