@@ -2471,7 +2471,8 @@ p {
     color: #e6e6e6; }
 
 /*Iconos*/
-.icon-background-rounded {
+.icon-background-rounded span {
+  background: #3ec6ff;
   padding: 2rem;
   border-radius: 50%;
   display: block;
@@ -2479,13 +2480,11 @@ p {
   height: 5rem;
   text-align: center;
   margin: 0 auto 1rem; }
-  .icon-background-rounded span {
-    background: #3ec6ff; }
-    .icon-background-rounded span:before {
-      font-size: 2rem;
-      color: #FFFFFF;
-      line-height: 0.6;
-      margin-left: -0.4rem; }
+  .icon-background-rounded span:before {
+    font-size: 2rem;
+    color: #FFFFFF;
+    line-height: 0.6;
+    margin-left: -0.4rem; }
 
 .icon-social {
   padding: 0.3rem;

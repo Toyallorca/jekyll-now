@@ -122,15 +122,15 @@ p{
 /*Iconos*/
 
 .icon-background-rounded {
-  padding: 2rem;
-  border-radius: 50%;
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  text-align: center;
-  margin: 0 auto 1rem;
   span {
     background: $main-color;
+    padding: 2rem;
+    border-radius: 50%;
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    margin: 0 auto 1rem;
     &:before {
       font-size: 2rem;
       color: $white-color;
