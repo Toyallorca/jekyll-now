@@ -2470,6 +2470,12 @@ p {
   @media only screen and (max-width: 780px) {
     .navbar .wo-input-search {
       display: none; } }
+@media only screen and (max-width: 479px) {
+  .navbar .wo-btn-search {
+    display: none; } }
+@media only screen and (max-width: 780px) {
+  .navbar .wo-btn-search {
+    display: none; } }
 .navbar .input-search-invisible {
   visibility: hidden;
   width: 0; }
