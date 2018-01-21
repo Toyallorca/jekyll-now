@@ -2529,6 +2529,10 @@ p {
       .slider .item .caption h4 {
         font-size: 0.7rem;
         letter-spacing: 0rem; } }
+.slider .owl-nav [class*=owl-] {
+  background: none; }
+.slider .owl-next span, .slider .owl-right span {
+  font-size: 4rem; }
 
 .wo-section-back {
   background: url("img/slide3.jpg") fixed center center;

@@ -203,6 +203,15 @@ p{
       }
     }
   }
+  .owl-nav [class*=owl-] {
+    background: none;
+  }
+  .owl-next, .owl-right{
+    span{
+      font-size: 4rem;
+    }
+  }
+
 }
 
 
