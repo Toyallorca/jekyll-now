@@ -129,12 +129,14 @@ p{
   height: 5rem;
   text-align: center;
   margin: 0 auto 1rem;
-  span:before{
+  span {
     background: $main-color;
-    font-size: 2rem;
-    color: $white-color;
-    line-height: 0.6;
-    margin-left: -$rem*0.4;
+    &before {
+      font-size: 2rem;
+      color: $white-color;
+      line-height: 0.6;
+      margin-left: -$rem*0.4;
+    }
   }
 
 }
@@ -142,9 +144,11 @@ p{
 .icon-social {
   padding: $rem*0.3;
   text-align: center;
-  span:before{
+  span {
     background: $main-color;
-    color: $white-color;
+    &:before {
+      color: $white-color;
+    }
   }
 }
 
@@ -169,6 +173,7 @@ p{
       text-align:center;
       @media #{$smartphones}{
         left: 30%;
+        top: 40%;
         height: 30%;
         width: 90%;
       }

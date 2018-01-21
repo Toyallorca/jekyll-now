@@ -2479,19 +2479,21 @@ p {
   height: 5rem;
   text-align: center;
   margin: 0 auto 1rem; }
-  .icon-background-rounded span:before {
-    background: #3ec6ff;
-    font-size: 2rem;
-    color: #FFFFFF;
-    line-height: 0.6;
-    margin-left: -0.4rem; }
+  .icon-background-rounded span {
+    background: #3ec6ff; }
+    .icon-background-rounded spanbefore {
+      font-size: 2rem;
+      color: #FFFFFF;
+      line-height: 0.6;
+      margin-left: -0.4rem; }
 
 .icon-social {
   padding: 0.3rem;
   text-align: center; }
-  .icon-social span:before {
-    background: #3ec6ff;
-    color: #FFFFFF; }
+  .icon-social span {
+    background: #3ec6ff; }
+    .icon-social span:before {
+      color: #FFFFFF; }
 
 .icon-search {
   text-align: center; }
@@ -2511,6 +2513,7 @@ p {
     @media only screen and (max-width: 479px) {
       .wo-slider .item .caption {
         left: 30%;
+        top: 40%;
         height: 30%;
         width: 90%; } }
     .wo-slider .item .caption h1, .wo-slider .item .caption h4 {
