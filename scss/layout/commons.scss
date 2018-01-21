@@ -91,6 +91,15 @@ p{
       color: $dark-color;
       font-size:$rem*0.9;
       padding: 0 1.2rem;
+      &:hover{
+        color: $main-color;
+      }
+      @media #{$smartphones}{
+        padding: 0.5rem 1.2rem;
+      }
+      @media #{$tablets}{
+        padding: 0.5rem 1.2rem;
+      }
     }
 
   }
@@ -100,6 +109,9 @@ p{
     padding: 1px;
     margin-right: 5px;
     border-radius: 1px;
+    .wo-input-search {
+     visibility: hidden;
+    }
   }
   .input-search-invisible{
     visibility: hidden;
@@ -239,6 +251,15 @@ p{
       }
       &:hover{
         background: none;
+        color: rgba(255, 255, 255, 0.5);
+        span{
+          font-size: 3.5rem;
+          @media #{$smartphones}{
+            font-size: 2.5rem;
+
+          }
+
+        }
       }
     }
     .owl-prev {

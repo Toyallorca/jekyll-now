@@ -2451,11 +2451,21 @@ p {
   color: #212529;
   font-size: 0.9rem;
   padding: 0 1.2rem; }
+  .navbar .nav-item .nav-link:hover {
+    color: #3ec6ff; }
+  @media only screen and (max-width: 479px) {
+    .navbar .nav-item .nav-link {
+      padding: 0.5rem 1.2rem; } }
+  @media only screen and (max-width: 780px) {
+    .navbar .nav-item .nav-link {
+      padding: 0.5rem 1.2rem; } }
 .navbar .wo-input-search {
   width: auto;
   padding: 1px;
   margin-right: 5px;
   border-radius: 1px; }
+  .navbar .wo-input-search .wo-input-search {
+    visibility: hidden; }
 .navbar .input-search-invisible {
   visibility: hidden;
   width: 0; }
@@ -2559,7 +2569,15 @@ p {
             font-size: 2.5rem; } }
       .wo-slider .owl-carousel .owl-prev:hover,
       .wo-slider .owl-carousel .owl-next:hover {
-        background: none; }
+        background: none;
+        color: rgba(255, 255, 255, 0.5); }
+        .wo-slider .owl-carousel .owl-prev:hover span,
+        .wo-slider .owl-carousel .owl-next:hover span {
+          font-size: 3.5rem; }
+          @media only screen and (max-width: 479px) {
+            .wo-slider .owl-carousel .owl-prev:hover span,
+            .wo-slider .owl-carousel .owl-next:hover span {
+              font-size: 2.5rem; } }
     .wo-slider .owl-carousel .owl-prev {
       left: 0; }
     .wo-slider .owl-carousel .owl-next {
