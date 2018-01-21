@@ -6,30 +6,21 @@
 
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-light">
             {% include logo.html %}
             <!--Botón para el menú responvise-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!--Fin para el responsive-->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+                    {% include nav-item.html item="Home"%}
+                    {% include nav-item.html item="Portfolio"%}
+                    {% include nav-item.html item="Blog"%}
+                    {% include nav-item.html item="Services"%}
+                    {% include nav-item.html item="Contact"%}
+
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="wo-input-search form-control input-search-invisible mr-sm-2" placeholder="Search">
@@ -53,8 +44,8 @@
         <!-- Owl -->
         <div id="owl-slider" class="owl-carousel owl-theme">
             {% include slider-item.html  image="img/slide2.jpg" pretitle="AMAZING NEW" title="DESIGN AGENCY" subtitle="TO CREATE YOUR PROJECT" %}
-            {% include slider-item.html  image="img/slide1.jpg" pretitle="LOREM IPSUM" title="CONSECTETUR ADISPISCING" subtitle="BIBENDUM TORTOR" %}
-            {% include slider-item.html  image="img/slide3.jpg" pretitle="DOLOR SIT MET" title="DONEC CONDIMENTUM" subtitle="QUSQUE CURSUS NISI" %}
+            {% include slider-item.html  image="img/slide1.jpg" pretitle="LOREM IPSUM" title="CONSEUR ADISPING" subtitle="BIBENDUM TORTOR" %}
+            {% include slider-item.html  image="img/slide3.jpg" pretitle="DOLOR SIT MET" title="DONEC CONDIMUM" subtitle="QUSQUE CURSUS NISI" %}
         </div>
     </section>
 
