@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('https://i.icomoon.io/public/temp/9df052aec1/UntitledProject/icomoon.eot?u1im6z');
-    src:  url('https://i.icomoon.io/public/temp/9df052aec1/UntitledProject/icomoon.eot?u1im6z#iefix') format('embedded-opentype'),
-    url('https://i.icomoon.io/public/temp/9df052aec1/UntitledProject/icomoon.ttf?u1im6z') format('truetype'),
-    url('https://i.icomoon.io/public/temp/9df052aec1/UntitledProject/icomoon.woff?u1im6z') format('woff'),
-    url('https://i.icomoon.io/public/temp/9df052aec1/UntitledProject/icomoon.svg?u1im6z#icomoon') format('svg');
+    src:  url('https://i.icomoon.io/public/temp/b8bebed94b/UntitledProject/icomoon.eot?8drcvb');
+    src:  url('https://i.icomoon.io/public/temp/b8bebed94b/UntitledProject/icomoon.eot?8drcvb#iefix') format('embedded-opentype'),
+    url('https://i.icomoon.io/public/temp/b8bebed94b/UntitledProject/icomoon.ttf?8drcvb') format('truetype'),
+    url('https://i.icomoon.io/public/temp/b8bebed94b/UntitledProject/icomoon.woff?8drcvb') format('woff'),
+    url('https://i.icomoon.io/public/temp/b8bebed94b/UntitledProject/icomoon.svg?8drcvb#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,11 +23,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-chevron-thin-left:before {
-    contenido: "\ e90c";
+    content: "\e90c";
 }
 .icon-chevron-thin-right:before {
-    contenido: "\ e90e";
+    content: "\e90e";
 }
 .icon-brush:before {
     content: "\e900";
