@@ -2538,14 +2538,14 @@ p {
       .wo-slider .item .caption h4 {
         font-size: 0.7rem;
         letter-spacing: 0rem; } }
-.wo-slider .owl-nav [class*=owl-] {
+.wo-slider .owl-theme .owl-nav [class*=owl-] {
   background: none; }
-.wo-slider .owl-next span, .wo-slider .owl-prev span {
+.wo-slider .owl-theme .owl-next span, .wo-slider .owl-theme .owl-prev span {
   font-size: 3.5rem; }
   @media only screen and (max-width: 479px) {
-    .wo-slider .owl-next span, .wo-slider .owl-prev span {
+    .wo-slider .owl-theme .owl-next span, .wo-slider .owl-theme .owl-prev span {
       font-size: 3rem; } }
-.wo-slider .owl-next:hover, .wo-slider .owl-prev:hover {
+.wo-slider .owl-theme .owl-next:hover, .wo-slider .owl-theme .owl-prev:hover {
   background: none; }
 
 .wo-section-newsletter {

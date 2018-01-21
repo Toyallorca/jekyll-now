@@ -217,22 +217,26 @@ p{
       }
     }
   }
-  .owl-nav [class*=owl-] {
-    background: none;
-  }
-  .owl-next, .owl-prev{
-    span{
-      font-size: 3.5rem;
-      @media #{$smartphones}{
-        font-size: 3rem;
 
-      }
-
-    }
-    &:hover{
+  .owl-theme{
+    .owl-nav [class*=owl-] {
       background: none;
     }
+    .owl-next, .owl-prev{
+      span{
+        font-size: 3.5rem;
+        @media #{$smartphones}{
+          font-size: 3rem;
+
+        }
+
+      }
+      &:hover{
+        background: none;
+      }
+    }
   }
+
 
 }
 
