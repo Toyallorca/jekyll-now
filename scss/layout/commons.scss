@@ -387,6 +387,11 @@ p{
   .owl-next {
     right: 0;
   }
+  /*centro los iconos social del item-carrusel*/
+  .icons{
+    width:70px;
+    margin: 0 auto;
+  }
   /*Cambio el color de los puntitos del slider*/
   .owl-dots{
     .owl-dot.active{
