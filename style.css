@@ -2481,7 +2481,7 @@ p {
   margin: 0 auto 1rem; }
   .icon-background-rounded span {
     background: #3ec6ff; }
-    .icon-background-rounded spanbefore {
+    .icon-background-rounded span:before {
       font-size: 2rem;
       color: #FFFFFF;
       line-height: 0.6;

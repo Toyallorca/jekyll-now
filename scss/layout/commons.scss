@@ -131,7 +131,7 @@ p{
   margin: 0 auto 1rem;
   span {
     background: $main-color;
-    &before {
+    &:before {
       font-size: 2rem;
       color: $white-color;
       line-height: 0.6;
