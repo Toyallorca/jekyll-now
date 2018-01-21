@@ -7,7 +7,7 @@
 <header>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            {% include logo.html %}
             <!--Botón de bootstrap para la versión responsive-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
 <section class="content">
     <!--Slider-->
 
-    <section class="slider">
+    <section class="wo-slider">
         <!-- Owl -->
         <div id="owl-slider" class="owl-carousel owl-theme">
             {% include slider-item.html  image="img/slide2.jpg" pretitle="AMAZING NEW" title="DESIGN AGENCY" subtitle="TO CREATE YOUR PROJECT" %}

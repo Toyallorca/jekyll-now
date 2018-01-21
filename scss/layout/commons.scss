@@ -15,7 +15,6 @@ $white-color: #FFFFFF;
 $dark-color: #212529;
 
 /*Variable tamaño de fuente*/
-
 $rem: 1rem;
 
 p, label, li, a{
@@ -23,13 +22,11 @@ p, label, li, a{
 }
 h1, h2, h3, h4, h5{
   font-family: $font-family2;
-
 }
 
 p a{
   color: $main-color;
 }
-
 h1{
   font-size: $rem*3;
 }
@@ -95,23 +92,17 @@ p{
     }
 
   }
+
   .wo-input-search{
     width: auto;
     padding: 1px;
     margin-right: 5px;
     border-radius: 1px;
-    transition: width 2s linear;
-    -webkit-transition: width 2s linear;
-    -moz-transition: width 2s linear;
   }
   .input-search-invisible{
     visibility: hidden;
     width:0;
-    transition: width 2s linear;
-    -webkit-transition: width 2s linear;
-    -moz-transition: width 2s linear;
   }
-
 }
 
 
@@ -119,6 +110,7 @@ p{
   border:0;
   background: $main-color;
   color: $white-color;
+  font-weight: 300;
   &:hover{
     background: darken($main-color,10%);
     color: darken($white-color,10%);
@@ -129,10 +121,7 @@ p{
 
 /*Iconos*/
 
-
-
 .icon-background-rounded {
-  background: $main-color;
   padding: 2rem;
   border-radius: 50%;
   display: block;
@@ -141,6 +130,7 @@ p{
   text-align: center;
   margin: 0 auto 1rem;
   span:before{
+    background: $main-color;
     font-size: 2rem;
     color: $white-color;
     line-height: 0.6;
@@ -150,26 +140,23 @@ p{
 }
 
 .icon-social {
-  background: $main-color;
   padding: $rem*0.3;
   text-align: center;
   span:before{
+    background: $main-color;
     color: $white-color;
-
   }
-
 }
 
 .icon-search {
   text-align: center;
   span:before{
     color: $dark-color;
-
   }
 }
 
 
-.slider{
+.wo-slider{
   .item{
     position: relative;
     .caption {
@@ -364,11 +351,9 @@ p{
 }
 
 
-
+/*Pongo las flechas del owl-carusel encima de la imagen*/
 .owl-carousel{
-  .owl-carrusel {
-    posición: relativo;
-  }
+    position: relative;
   .owl-prev,
   .owl-next {
     position: absolute;
