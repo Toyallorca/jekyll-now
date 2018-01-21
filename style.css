@@ -2430,7 +2430,8 @@ p {
   padding-bottom: 8rem; }
 
 .wo-nopadding-col {
-  padding: 0; }
+  padding-left: 0;
+  padding-right: 0; }
 
 .wo-center {
   text-align: center; }
