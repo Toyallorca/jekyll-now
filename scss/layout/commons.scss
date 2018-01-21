@@ -231,7 +231,7 @@ p{
     &:focus{
       color: $white-color;
     }
-    &:placeholder{
+    &::placeholder{
       color: $white-color;
     }
   }
