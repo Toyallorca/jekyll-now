@@ -372,7 +372,7 @@ p{
     right: 0;
   }
   .owl-dots{
-    &.active{
+    .owl-dot.active{
       span{
         background: $white-color;
         border: 1px solid $main-color;

@@ -2653,7 +2653,7 @@ p {
     left: 0; }
   .owl-carousel .owl-next {
     right: 0; }
-  .owl-carousel .owl-dots.active {
+  .owl-carousel .owl-dots .owl-dot.active span {
     background: #FFFFFF;
     border: 1px solid #3ec6ff; }
 
