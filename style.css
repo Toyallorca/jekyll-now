@@ -2511,42 +2511,58 @@ p {
   .icon-search span:before {
     color: #212529; }
 
-.wo-slider .item {
-  position: relative; }
-  .wo-slider .item .caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: -8% 0 0 -25%;
-    text-align: center; }
-    @media only screen and (max-width: 479px) {
-      .wo-slider .item .caption {
-        left: 35%;
-        top: 40%;
-        height: 30%;
-        width: 80%; } }
-    .wo-slider .item .caption h1, .wo-slider .item .caption h4 {
-      color: #FFFFFF;
-      letter-spacing: 0.4rem; }
-    @media only screen and (max-width: 479px) {
-      .wo-slider .item .caption h1 {
-        font-size: 2rem;
-        letter-spacing: 0rem; } }
-    @media only screen and (max-width: 479px) {
-      .wo-slider .item .caption h4 {
-        font-size: 0.7rem;
-        letter-spacing: 0rem; } }
-.wo-slider .owl-theme .owl-nav [class*=owl-] {
-  background: none; }
-.wo-slider .owl-theme .owl-next span, .wo-slider .owl-theme .owl-prev span {
-  font-size: 3.5rem; }
-  @media only screen and (max-width: 479px) {
-    .wo-slider .owl-theme .owl-next span, .wo-slider .owl-theme .owl-prev span {
-      font-size: 3rem; } }
-.wo-slider .owl-theme .owl-next:hover, .wo-slider .owl-theme .owl-prev:hover {
-  background: none; }
+.wo-slider {
+  /*Pongo las flechas del owl-carusel encima de la imagen*/ }
+  .wo-slider .item {
+    position: relative; }
+    .wo-slider .item .caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 30%;
+      width: 50%;
+      margin: -8% 0 0 -25%;
+      text-align: center; }
+      @media only screen and (max-width: 479px) {
+        .wo-slider .item .caption {
+          left: 35%;
+          top: 40%;
+          height: 30%;
+          width: 80%; } }
+      .wo-slider .item .caption h1, .wo-slider .item .caption h4 {
+        color: #FFFFFF;
+        letter-spacing: 0.4rem; }
+      @media only screen and (max-width: 479px) {
+        .wo-slider .item .caption h1 {
+          font-size: 2rem;
+          letter-spacing: 0rem; } }
+      @media only screen and (max-width: 479px) {
+        .wo-slider .item .caption h4 {
+          font-size: 0.7rem;
+          letter-spacing: 0rem; } }
+  .wo-slider .owl-carousel {
+    position: relative; }
+    .wo-slider .owl-carousel .owl-nav [class*=owl-] {
+      background: none; }
+    .wo-slider .owl-carousel .owl-prev,
+    .wo-slider .owl-carousel .owl-next {
+      position: absolute;
+      top: 45%;
+      margin-top: -10px; }
+      .wo-slider .owl-carousel .owl-prev span,
+      .wo-slider .owl-carousel .owl-next span {
+        font-size: 3.5rem; }
+        @media only screen and (max-width: 479px) {
+          .wo-slider .owl-carousel .owl-prev span,
+          .wo-slider .owl-carousel .owl-next span {
+            font-size: 3rem; } }
+      .wo-slider .owl-carousel .owl-prev:hover,
+      .wo-slider .owl-carousel .owl-next:hover {
+        background: none; }
+    .wo-slider .owl-carousel .owl-prev {
+      left: 0; }
+    .wo-slider .owl-carousel .owl-next {
+      right: 0; }
 
 .wo-section-newsletter {
   background: url("img/slide3.jpg") fixed center center;
@@ -2613,6 +2629,21 @@ p {
       .wo-overlay-effect .caption .wo-caption-text h3, .wo-overlay-effect .caption .wo-caption-text p {
         color: #FFFFFF; }
 
+.wo-carousel .caption {
+  /*centro los iconos social del item-carrusel*/
+  /*Cambio el color de los puntitos del slider*/ }
+  .wo-carousel .caption .wo-caption-text {
+    display: block;
+    top: 50%; }
+  .wo-carousel .caption .icons {
+    width: 7rem;
+    margin: 2rem auto 0; }
+    .wo-carousel .caption .icons span {
+      font-size: 1.5rem; }
+  .wo-carousel .caption .owl-dots .owl-dot.active span {
+    background: #FFFFFF;
+    border: 2px solid #3ec6ff; }
+
 .wo-prices .wo-prices-item {
   padding: 0 2rem; }
 .wo-prices .btn {
@@ -2661,26 +2692,5 @@ p {
       margin: 1rem 0; }
     .wo-section-map-form .wo-form-contact .wo-btn {
       width: 100%; }
-
-/*Pongo las flechas del owl-carusel encima de la imagen*/
-.owl-carousel {
-  position: relative;
-  /*centro los iconos social del item-carrusel*/
-  /*Cambio el color de los puntitos del slider*/ }
-  .owl-carousel .owl-prev,
-  .owl-carousel .owl-next {
-    position: absolute;
-    top: 45%;
-    margin-top: -10px; }
-  .owl-carousel .owl-prev {
-    left: 0; }
-  .owl-carousel .owl-next {
-    right: 0; }
-  .owl-carousel .icons {
-    width: 70px;
-    margin: 0 auto; }
-  .owl-carousel .owl-dots .owl-dot.active span {
-    background: #FFFFFF;
-    border: 2px solid #3ec6ff; }
 
 /*# sourceMappingURL=style.css.map */

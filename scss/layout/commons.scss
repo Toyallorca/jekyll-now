@@ -218,11 +218,19 @@ p{
     }
   }
 
-  .owl-theme{
+
+
+  /*Pongo las flechas del owl-carusel encima de la imagen*/
+  .owl-carousel{
+    position: relative;
     .owl-nav [class*=owl-] {
       background: none;
     }
-    .owl-next, .owl-prev{
+    .owl-prev,
+    .owl-next {
+      position: absolute;
+      top: 45%;
+      margin-top: -10px;
       span{
         font-size: 3.5rem;
         @media #{$smartphones}{
@@ -235,8 +243,14 @@ p{
         background: none;
       }
     }
-  }
+    .owl-prev {
+      left: 0;
+    }
+    .owl-next {
+      right: 0;
+    }
 
+  }
 
 }
 
@@ -327,7 +341,33 @@ p{
   }
 }
 
+.wo-carousel{
+  .caption{
+    .wo-caption-text {
+      display: block;
+      top: 50%;
+    }
+    /*centro los iconos social del item-carrusel*/
+    .icons{
+      width: 7rem;
+      margin: 2rem auto 0;
+      span{
+        font-size: 1.5rem;
+      }
+    }
+    /*Cambio el color de los puntitos del slider*/
+    .owl-dots{
+      .owl-dot.active{
+        span{
+          background: $white-color;
+          border: 2px solid $main-color;
+        }
+      }
+    }
 
+  }
+
+}
 .wo-prices{
   .wo-prices-item{
     padding: 0 2rem;
@@ -394,34 +434,3 @@ p{
 }
 
 
-/*Pongo las flechas del owl-carusel encima de la imagen*/
-.owl-carousel{
-    position: relative;
-  .owl-prev,
-  .owl-next {
-    position: absolute;
-    top: 45%;
-    margin-top: -10px;
-  }
-  .owl-prev {
-    left: 0;
-  }
-  .owl-next {
-    right: 0;
-  }
-  /*centro los iconos social del item-carrusel*/
-  .icons{
-    width:70px;
-    margin: 0 auto;
-  }
-  /*Cambio el color de los puntitos del slider*/
-  .owl-dots{
-    .owl-dot.active{
-      span{
-        background: $white-color;
-        border: 2px solid $main-color;
-      }
-    }
-  }
-
-}
