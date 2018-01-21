@@ -116,6 +116,14 @@ p{
       display: none;
     }
   }
+  .wo-btn-search{
+    @media #{$smartphones}{
+      display: none;
+    }
+    @media #{$tablets}{
+      display: none;
+    }
+  }
   .input-search-invisible{
     visibility: hidden;
     width:0;
