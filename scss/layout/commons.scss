@@ -109,8 +109,11 @@ p{
     padding: 1px;
     margin-right: 5px;
     border-radius: 1px;
-    .wo-input-search {
-     visibility: hidden;
+    @media #{$smartphones}{
+    display: none;
+    }
+    @media #{$tablets}{
+      display: none;
     }
   }
   .input-search-invisible{
