@@ -2436,9 +2436,6 @@ p {
 .wo-center {
   text-align: center; }
 
-.icon-container i {
-  font-size: 3rem; }
-
 /*Menú*/
 .navbar .navbar-brand {
   color: #3ec6ff;
@@ -2477,6 +2474,12 @@ p {
     color: #e6e6e6; }
 
 /*Iconos*/
+.icon {
+  display: block; }
+  .icon a:hover {
+    color: transparent;
+    /*quito el estilo de bootstrap del a:hover color */ }
+
 .icon-background-rounded span {
   background: #3ec6ff;
   padding: 2rem;

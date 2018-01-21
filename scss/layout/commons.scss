@@ -68,10 +68,6 @@ p{
   text-align: center;
 }
 
-.icon-container i{
-  font-size: 3rem;
-}
-
 
 /*Menú*/
 
@@ -129,6 +125,13 @@ p{
 
 
 /*Iconos*/
+
+.icon{
+  display: block;
+  a:hover{
+    color: transparent; /*quito el estilo de bootstrap del a:hover color */
+  }
+}
 
 .icon-background-rounded {
   span {
