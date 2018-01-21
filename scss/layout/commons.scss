@@ -231,6 +231,9 @@ p{
     &:focus{
       color: $white-color;
     }
+    &:placeholder{
+      color: $white-color;
+    }
   }
 }
 /*Formulario del newsletter*/
