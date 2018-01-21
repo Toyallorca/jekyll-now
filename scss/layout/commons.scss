@@ -162,6 +162,13 @@ p{
       padding: $rem*0.3;
     }
   }
+  a:hover{
+    span {
+      &:before {
+        background: darken($main-color, 10%);
+      }
+    }
+  }
 }
 
 .icon-search {

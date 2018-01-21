@@ -2501,6 +2501,8 @@ p {
     color: #FFFFFF;
     background: #3ec6ff;
     padding: 0.3rem; }
+.icon-social a:hover span:before {
+  background: #0bb7ff; }
 
 .icon-search {
   text-align: center; }
