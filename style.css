@@ -2531,7 +2531,7 @@ p {
         letter-spacing: 0rem; } }
 .slider .owl-nav [class*=owl-] {
   background: none; }
-.slider .owl-next span, .slider .owl-right span {
+.slider .owl-next span, .slider .owl-prev span {
   font-size: 4rem; }
 
 .wo-section-back {
